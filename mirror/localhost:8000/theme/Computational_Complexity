@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - Computational_Complexity</title>
+
+<body>
+
+        <h1> <a href="/">Traverse Abstract</a></h1>
+        <div class="theme"> <a href="/theme/Computational_Complexity">Computational Complexity</a></div>
+          <br/><hr/>
+        <div class="grid">
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.01368" target="_blank">
+                      <h2>Training Fully Connected Neural Networks is $\exists\mathbb{R}$-Complete</h2>
+                      <img class="media-object" src="/html/images/_pdf_2204.01368.png"/>
+                      <p class="media-body"> They consider the algorithmic problem of finding the optimal weights and biases for a two-layer fully connected neural network to fit a given set of data points. This problem is known as empirical risk minimization in the machine learning community. They show that the problem is $\exists\mathbb{R}$-complete. This complexity class can be defined as the set of algorithmic problems that are polynomial-time equivalent to finding real roots of a polynomorphic polynomic with integer coefficients.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.00858" target="_blank">
+                      <h2>Polynomial Bounds On Parallel Repetition For All 3-Player Games With Binary Inputs</h2>
+                      <img class="media-object" src="/html/abstract.png"/>
+                      <p class="media-body"> They prove that for every 3-player (3-prover) game with value less than one, whose query distribution has the support of hamming weight one vectors, the value of the $n$-fold parallel repetition of the game decays polynomially fast to zero. The value of a game such as $c = c (c)&gt;0$ is at most $n^{-c$ and $n = c(\mathcal G) &gt;0$.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/2203.17168" target="_blank">
+                      <h2>Lower bounds for uniform read-once threshold formulae in the randomized decision tree model</h2>
+                      <img class="media-object" src="/html/abstract.png"/>
+                      <p class="media-body"> A read-once threshold formula can be defined by a rooted tree, every internal node of which is labeled by a threshold function. Such a tree defines a Boolean function in a natural way. They focus on the randomized decision tree complexity of such functions. They prove lower bounds of the form $c(k,n)^d$, where $d$ is the depth of the tree. They also treat trees with alternating levels of AND and OR gates separately and show asymptotically optimal bounds.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/2203.16978" target="_blank">
+                      <h2>Matrix Polynomial Factorization via Higman Linearization</h2>
+                      <img class="media-object" src="/html/abstract.png"/>
+                      <p class="media-body"> In continuation to the recent work on noncommutative polynomial factorization, they consider the factorization problem for matrices of polynomials. They show the following results. In the results, they show that the problem is solved by factorization matrices. They also show that factorization problems are solved by using a factorization matrix of matrices with a polynomic matrix. They conclude that the result is the result of factorizing matrices matrices for a linear algebra matrices. They then conclude that this is a result of the factization problem.</p>
+                  </a>
+              </span>
+            
+        </div>
+        <br/><hr/>
+        <span class="more boldfont">
+            <a href="/theme/Computational_Complexity?page=2">more...</a>
+        </span>
+</body>
+
+</html>

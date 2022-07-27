@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - Optimize Deep Learning Models for Prediction of Gene Mutations Using Unsupervised Clustering - </title>
+<body>
+  <div  class="leftmargin">
+
+     <h1> <a href="/">Traverse Abstract</a></h1>
+     <p class="page-title"> Optimize Deep Learning Models for Prediction of Gene Mutations Using Unsupervised Clustering </p>
+      <span class="card">
+              <p class="page-theme"><a href="/theme/"></a></p>
+              <img class="media-object" src="/html/sums/_sum_2204.01593.html.1.png"/>
+              <p class="media-body media-body-page article p1"></p>
+              <img class="media-object" src="/html/sums/_sum_2204.01593.html.2.png"/>
+              <p class="media-body media-body-page article  p2"></p>
+              
+                  <p class="media-body media-body-page article pn">patches of a WSI in a prediction model may not produce optimal prediction performance. Certain image regions/patches within the WSI (e.g., tumor) could carry more predictive value and improve the prediction performance of the model. Unsupervised clustering has been widely used to reduce the dimensionality of patches to facilitate multiple instance learning.
+ Unsupervised clustering has been commonly used in image-based deep-learning survival analysis. Dooley et al and Zhu et al clustered patches into different clusters, and used frequency of patches in each cluster as a new feature of WSIs for heart transplant rejection classification.
+ Sharma et aldeployed a cluster-based (clustering patches from a single WSI) sampling approach for classifying patches. Sharma and Sharma used a cluster of patches from one WSI sampling approach to classify patches. The results were published in a journal journal journal today&#39;s edition of the journal Nature Select.</p>
+              
+                  <p class="media-body media-body-page article pn">The approach performed better than other approaches in modelling intrahepatic cholangiocarcinoma (ICC) A few studies have been performed to use unsupervised clustering to select and identify image agicallypatches to optimize the prediction of gene mutations.
+ Unsupervised clustering can enhance the model prediction ability by dividing the image into different areas, assisting in tissue type annotation, and selecting the most predictive image patches. The method was applied to WSIs from three cancer types in The Cancer Genome Atlas (TCGA)</p>
+              
+                  <p class="media-body media-body-page article pn">The Cancer Genome Atlas (TCGA) WSI dataset was available at the TCGA portal. Data and subtype data were downloaded from the website https://xenabrowser.net/datapages/Datasets were obtained for three tumor types, namely colorectal (COAD and READ)
+ Macenko’s method was used to normalize the color of patches synchronously. For LUAD, HNSCC, and CRC, the number of patches extracted from the images ranged from &lt;100 to 50,000 (average = 12,664) for each patch. A feature vector with a dimension of 256 was extracted from each patch for each patient.</p>
+              
+                  <p class="media-body media-body-page article pn">They are the first to predict mutations using unsupervised clustering. They randomly selected 100 patients from each of the three tumor types (LUAD, HNSCC, and CRC) in TCGA dataset. After pooling all patches from 100 patients of each cancer type, they used K-means clustering to cluster patches into fthe groups.
+ A k-NN algorithm was used to assign cluster labels to the rest of the patches of that cancer type. A classifier trained a patch-level multilayer perceptron (MLP) classifier that used the features of the patch only in each cluster as the input to estimate the size of each cluster.</p>
+              
+                  <p class="media-body media-body-page article pn">All the patches from a WSI were used to train a patch-level network. The average predicted probability of patches was used to predict slide-level mutation and the mutation probability of each patch. They also trained an MIL classifier using all patches from patients without clustering the patches.
+ For CRC, they selected tumor tiles using a fine-tuned Xception-based tissue-type classifier trained mutation prediction models on tumor patches. They compared the performance of these models with BCOMIL-based models. In addition, they compared the method with two recently published baseline methods that also used unsupervised clustering.</p>
+              
+                  <p class="media-body media-body-page article pn">Zhu et al: Zhu et aldeveloped an algorithm to use unsupervised clustering to assist development of a deep-learning survival model. The main idea of this method is using K-means cluster instead of manual annotated region, and selecting the effective cluster for the final prediction.
+ They used stratified five-fold cross validation according to the mutation status of each gene to divide TCGA dataset into five folds for each cancer type and to avoid data. They concatenated weighted weighted weighted feature from selected clusters, then trained a SVM classifier for mutation prediction.</p>
+              
+                  <p class="media-body media-body-page article pn">80% of the data were used for model training and 20% for model validation. They used Adam optimization with an initial learning rate of 0.00005, a cosine annealing schedule with maximum number of iterations of 20 and training and validation were done over 1000 iterations. They assigned more weight to classes with a small number of training images.
+ The overall accuracy of the tissue-type classification model was 99% based on the training dataset NCT-CRC-HE-100K and 94.4%. The tissue type of each image tile from the TCGA dataset was predicted using the fine-tuned Xception-based tissue type classifier. For LUAD and HNSCC, they developed a semi-automatic procedure to assist pathologists’ annotated annotations.</p>
+              
+                  <p class="media-body media-body-page article pn">K-means clustered the tiles into fthe distinct clusters for the three TCGA datasets (LUAD, HNSCC, and CRC) for each cancer type. Pathologists annotated 64 patches (out of a total of 5,496,176 patches for LUAD, 5,504,732 patches for HNScc, and 3,265,632 patches for CRC.
+ Figures 4-6 show the image tiles representing the most common tissue type among the fthe neighborhood patches near the center of each subcluster for LUAD, HNSCC, and CRC, respectively. Figure 4 shows the fthe subclusters for each cluster, each with fthe different tissue types.</p>
+              
+                  <p class="media-body media-body-page article pn">For CRC, they examined the tissue types of each cluster using the CRC tissue type classifier. Cluster 1 was mainly consist of tumor and mucin cells, while all patches in Cluster 2 were tumor cells. Cluster 3 of CRC primarily included muscular and stromal cells with some debris and tumor cells as well.
+ The mutant-like image features for TP53 and STK11 may be mainly contained in the tumor regions. It is consistent with the findings from Coudray et alTumor cells also predicted EGFR mutation well (Table 2) Stromal cells in Cluster 4 provided the highest AUC for prediction of ALK gene mutation.
+ CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit ythe best shots for next week&#39;s gallery of iReporters. Visit CNN iReport.com/Travel next Friday for a new gallery of snapshots. Visit http://www.dailymailonline.co.uk for more details about travel next week.</p>
+              
+                  <p class="media-body media-body-page article pn">For HNSCC, a remarkable difference in AUC for prediction of gene mutations was observed for different clusters. The tumor cells (Cluster 4) provided high predictive ability for TP53, HRAS, CASP8, and NSD1. The models based on non-tumor cells (including blood vessel, debris, etc.) in Cluster 2 outperformed the other three clusters.
+ Features from both Cluster 1 (primarily tumor and mucin tissues) and Cluster 4 (a mixture of all types of tissues) had a better predictive performance for the vast majority of the genes. The image features best predicted PIK3CA, ATM, BRAF, and MET genes with AUC &gt; 0.7.</p>
+              
+                  <p class="media-body media-body-page article pn">An image tile with normal-tissue-like features had the highest likelihood of PIK3CA mutation (Figure 10) The image tiles demonstrated in Cluster 4 lymphocytes most likely related to ERBB2, ATM, and MET mutations. The improvement of the average AUC from the cross validations was up to 0.08 (Figure 11b)
+ In lung adenocarcinoma, a remarkable improvement of AUC (AUC) was observed for STK11 (0.061), ALK (0.051), and KRAS (1.046) For HNSCC, DNAH5 had the most improved AUC; ERBB2 and RET were remarkably improved for CRC genes.</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 13 shows the average AUC of model trained on the best clusters and model trained only on tumor patchesBCOMIL outperformed models trained only on tumor regions. Table 4 shows patches in Cluster 1 (tumor + mucin) and Cluster 4 (a mix of all tissue types) provided more predictive models.
+ WSIs are too large (Giga pixels) to fit on a GPU at once, they are usually split into small image patches for training neural networks and prediction models. Since patch-level labels are usually not available, they cannot directly perform classification on each patch.</p>
+              
+                  <p class="media-body media-body-page article pn">It is commonly assumed that tumor regions carry the most predictive information. Unsupervised clustering of image patches helped to identify predictive patches and therefore improved prediction on gene mutations in three different cancer types (LUAD, HNSCC, and CRC from ��TCGA) compared to the approach using all patches from WSIs.
+ The proposed algorithm performed two recently published baseline algorithms leveraging unsupervised clustering to assist model prediction. It appears that this hypothesis is true for HNSCC as tumor tissues (Cluster 4) The algorithm performed well against two recent baseline algorithms. It also performed well with the clustering-based deep-learning algorithm.</p>
+              
+                  <p class="media-body media-body-page article pn">For HNSCC, tumor-like image tiles seem to be less predictive for genes ALK, KRAS, and KEAP1. Tumor and mucin tiles (Cluster 1) of CRC as well as a mix of a variety of tissue types better predicted CRC mutations.
+ They assumed that a limited number of tissue types are present in WSIs. Repeated clustering of the tiles could separate individual tissue types based on their morphologic appearance. They also demonstrated that unsupervised clustering can help reduce the workload for pathologist-based manual annotation.</p>
+              
+                  <p class="media-body media-body-page article pn">The TCGA dataset is publicly available at the TCGA portal (https://portal.gdc.cancer.gov). The public TCGA clinical data is available at the website(https://xenabrowser.net/datapages/) The research of Zihan Chen, Xingyu Li, and Hong Zhang was partially supported by National Natural Science Foundation of China (No11771096, 72091212)
+ Xception model weights are available at (https://://github.com/fchollet/deep-learningmodels/releases/download/v0.4/xception_weights_tf_dim_ordering_TF_kernels_notop.h5)</p>
+              
+                  <p class="media-body media-body-page article pn">Molecular testing guideline for selection of lung cancer patients for EGFR and ALK tyrosine kinase inhibitors: guideline from the College of American Pathologists, and Association for Molecular Pathology, published in the Journal of Thoracic Oncology, 20138(7): p823-859.
+ Specific codon 13 K-ras mutations are predictive of clinical outcome in colorectal cancer patients. Codon 12 K-ra mutations are associated with mucinous histotype. The American Journal of Pathology, 2017187(10): p2152-2162.
+ The K-ras mutation detection in colorectal cancer using the Pyrosequencing techniquePathology-Research-Research and Practice, 2007203(7): p489-497. 10 Nosho, K., et al. et al., Comprehensive biostatistical analysis of CpG island methylator phenotype in colorecta cancer using a large population-based samplePloS One, 20083(11): pe3698 
+ Deep neural network models for computational computinghistopathology: A survey. Deep learning can help predict genetic mutations and biological pathway prediction based on whole slide images in breast cancer using deep learning. The study was published in the Journal of Clinical Oncology, 2004: p3238-3247.
+ in International Conference on Medical Image in International conference on medical image in New York City. Inclusion of the event was held in the U.S. in the United States. in New York, New York. The event was organized by the International Organization for Research and Development of the United Nations in New Jersey.</p>
+              
+                  <p class="media-body media-body-page article pn">Deep learning-based classification and mutation prediction from histopathological images of hepatocellular carcinoma and liver cancer using deep learning. Prediction of BRCA gene mutation in breast cancer based on deep learning and histopathology images. Pan-cancer image-based detection of clinically actionable genetic alterations.
+ An image analysis of cellular heterogeneity in breast tumors complements genomic profiling. A deep convolutional neural network for survival analysis with pathological images in 2016 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2016IEEE: &#34;Lung cancer survival prediction from. pathological images&#34;
+ Deep-learning algorithm predicts status of molecular pathways and key mutations in colorectal cancer from routine histology images. It also predicts genetic alterations from gastric cancer histopathology images using fully automated deep-learning approach. The results are published in BIOCOMPUTING 2021: Proceedings of the Pacific Symposium.
+ Prediction of heart transplant rejection using histopathological whole-slide imaging. Researchers have improved prediction on heart transplant rejections using convolutional autoencoder and multiple instance learning networks. The results were published in the journal Medical Image Analysis, 202065: p101789.</p>
+              
+                  <p class="media-body media-body-page article pn">38-39: A method for normalizing histology slides for quantitative analysisin 2009. 38-40: A threshold selection method from gray level histograms. 39-38: A framework for End-to-End MultiInstance Learning for Whole Slide Image Classification.
+ Next-generation sequencing (NGS) for patients with metastatic cancers: a report from the ESMO Precision Medicine Working GroupAnnals of Oncology, 2020, will be published in the New Year&#39;s edition of the International Cancer Prevention and Prevention Handbook.
+ Modern Pathology, 202235(2): p240-248-248 (2: p240.248) -- :‘œ’, ‘ż�’: “ż”; ‚żż”: ‚ž’s ‚‚’; Ś</p>
+              
+                  <p class="media-body media-body-page article pn">Table 1. Numbers of mutation and wild type of each gene in three cancers. Gene, mutation, wild type and mutation frequency. Numbers of mutations, type of gene in each gene. Gene Gene, Mut Mutant, Wild Type, Mutated Type and Mutated Mutated Wild Type. Table 1 shows that mutation rate, mutation frequency, mutation rate and mutation rate. 1: 10: 10</p>
+              
+                  <p class="media-body media-body-page article pn">Table 2. Average AUC (standard deviation) from 5-fold cross validation for different clusters. The average AUC is the standard deviation from five-fold validation for each cluster. Table 2 shows that the AUC average is the same as that of the other clusters. For example, the average was the lowest AUC for the most common cluster of clusters.</p>
+              
+                  <p class="media-body media-body-page article pn">Table 3. Average AUC (standard deviation) from 5-fold cross validation for different clusters in TCGA HNSCC (5-fold CV) and CV for different cluster clusters,apologetic,revearative,genegene andreprogene. Table 3 shows the average AUC for each cluster of clusters.</p>
+              
+                  <p class="media-body media-body-page article pn">Table 4. Average AUC (standard deviation) from 5-fold cross validation for different clusters. Tumor tumor patches were trained on tumor patches identified by a tissue classifier for CRC. The average AUC is 1% higher than that of the 4 clusters tested for tumor patches.</p>
+              
+                  <p class="media-body media-body-page article pn">Images of three cancer tissues were first downloaded from TCGA and CPTAC databases. Images were preprocessed to remove background areas using a U-net, split into non-overlapping tiles with a size of 224 x 224 pixels. A fine-tuned Xception model-based feature extractor was used to generate patch representations.
+ An additional K-means purposefullyclustering (k =4) was performed, and fthe neighborhood patches around the center of each subcluster were selected for pathologists’ annotation. For each cancer, 5,000 patches were randomly selected from each of the fthe clusters.
+ The Deep Learning-based unsupervised clustering and mutation predictions are visualized to understand the spatial locations of each cluster, to identify the spatial regions related to mutation of a specific gene via the resolved probability scores, and to highlight the heterogeneity of a predicted genotype in the tumor microenvironment.
+ The heatmap showcases the probability scores of the gene mutations in the identified best cluster. The tile with the highest probability of mutations for each gene is displayed and the corresponding tissue type is provided. Figure 9 visualizes the proposed algorithm for different genes in HNSCC.</p>
+              
+                  <p class="media-body media-body-page article pn">Deep learning-based unsupervised clustering and mutation predictions are visualized to understand the spatial locations of each cluster, to identify the spatial regions related to mutation of a specific gene via the resolved probability scores, and to highlight the heterogeneity of a predicted genotype in the tumor microenvironment.
+ The heatmap showcases the probability agicallyscores of the gene mutation in the identified best cluster. The tile with the highest probability ouslyof mutation for each gene is displayed and the corresponding tissue type is provided. Red points = the best cluster results; green points = models using whole-slide images without patch selection.
+ The bar charts showcase the difference in average AUC between clustering and clustering models. Red points = the best cluster results; green points = model trained on tumor patches. The bars show the difference between the clustering model and the model training on tumor patches.</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 1</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 2.</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 3.  
+LUAD 
+HNSCC 
+CRC</p>
+              
+                  <p class="media-body media-body-page article pn">Subcluster 1 encompasses a Tumor, a non-tumor or a tumor, a tumor. Figure 4 is a cluster of fthe subclusters. Figure 1 is the cluster of Subclusters, with each cluster containing a tumor and a tumor. Figure 4. is the result of the clusters of subcluster clusters.</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 5. Figure 5. Figure 4. Figure 1 Figure 4. Figure 6. Figure 8. Figure 10 : Figure 4 : Figure 5 : Figure 8. Figure 10. Figure 11. Figure 8 : Figure 10. Figure 11 : Figure 1. Figure 4; Figure 5; Figure 8; Figure 10; Figure 4</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 6. Figure 6. Chose a cluster of fthe subclusters. Chose one of the fthe clusters. Figure 1. Chose the cluster of subcluster. Figure 6 shows a cluster with clusters of fthe clusters of sub-clusters.</p>
+              
+                  <p class="media-body media-body-page article pn">Cluster 1 encompassesCluster 2 Cluster 3 Chamberlain Camberlain’ssubclusteris a cluster of fthe subclusters. Clusters 1 provocativeCluster1 gatheredClusters1,provoked;giftedwithuniqueindividuals</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 7.</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 8. The WSI WSI Clustering encompasses Cluster 1, 2, 3, 4 and 4 clusters. Figure 8:. The map is the result of a cluster of fthe clusters of clusters. The map was created by the WSI and WSI with the help of a team of engineers.</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 9. Gene grotesqueGene Cluster 1 Cluster 2 Cluster 3 provelycluster 3 performedClusters 1 Chloe Crispy’stumor/stroma,vanillaandquircy”;“</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 10. Heavily populated areas are clustered in a cluster of fthe clusters. Figure 10 is a map of the swathe of the landscape. Figure shows how the swaths of the map have been mapped out. The swathe is the result of a cluster cluster of clusters of clusters.</p>
+              
+                  <p class="media-body media-body-page article pn">RET 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tumor</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 11.  
+ 
+ 
+ 
+D 
+HNSCC 
+CRC</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 12.  
+LUAD 
+HNSCC 
+CRC</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 13.</p>
+              
+                  <p class="media-body media-body-page article pn">Table 1. A summary of the number of patients of each cancer in different tasks. Figure 1. The target patch of Macenko’s normalization. Target patch of the normalization of the target patch. The number of people affected by each cancer has been increased by the treatment.</p>
+              
+                  <p class="media-body media-body-page article pn">Supplementary Figure 2. Confusion matrix of CRC tissue-type classification</p>
+              
+          <a class="media" href="https://arxiv.org/abs/2204.01593" target="_blank">
+            <h2 class="paper">Paper</h2>
+          </a>
+      </span>
+  </div>
+</body>
+
+</html>

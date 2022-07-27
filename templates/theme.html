@@ -1,0 +1,25 @@
+{% include 'header.html' %}
+<title>Traverse Abstract - {{ theme }}</title>
+
+<body>
+
+        <h1> <a href="/">Traverse Abstract</a></h1>
+        <div class="theme"> <a href="/theme/{{ theme }}">{{ theme_title }}</a></div>
+          <br/><hr/>
+        <div class="grid">
+            {% for card in spots %}
+              <span class="card-theme">
+                  <a class="media" href="/spot/{{ card['ref'] }}" target="_blank">
+                      <h2>{{ card['plot'] }}</h2>
+                      <img class="media-object" src="/html/{{card['image']}}" alt="{{ card['plot'] }}"/>
+                      <p class="media-body">{{ card['summary'] }}</p>
+                  </a>
+              </span>
+            {% endfor %}
+        </div>
+        <p style="clear:both;"><p>&nbsp</p><hr/>
+        <span class="more boldfont">
+            <a class="more" href="/theme/{{ theme }}?page={{ page + 1 }}">more...</a>
+        </span>
+</body>
+{% include 'footer.html' %}

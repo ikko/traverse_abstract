@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - Inverse uncertainty quantification of a mechanical model of arterial tissue with surrogate modeling - Computational Engineering, Finance, and Science</title>
+<body>
+  <div  class="leftmargin">
+
+     <h1> <a href="/">Traverse Abstract</a></h1>
+     <p class="page-title"> Inverse uncertainty quantification of a mechanical model of arterial tissue with surrogate modeling </p>
+      <span class="card">
+              <p class="page-theme"><a href="/theme/Computational_Engineering,_Finance,_and_Science">Computational Engineering, Finance, and Science</a></p>
+              <img class="media-object" src="/html/sums/_sum_2204.02167.html.1.png"/>
+              <p class="media-body media-body-page article p1">Inverse uncertainty quantiﬁcation of a mechanical model of arterial tissue with surrogate modeling. An e-cient computer model is a vital step towards engineering, enhancing the research of coronary diseases, and develop-agicallying medical treatment and interventional tools. In this work, they apply inverse uncertainty to a microscale agent-based arterial. tissue model, a component of the 3D multiscale model of in-stent restenosis (ISR3D)</p>
+              <img class="media-object" src="/html/sums/_sum_2204.02167.html.2.png"/>
+              <p class="media-body media-body-page article  p2">Cardiovascular diseases (CVDs) are the topmost cause of death globally, leading to an estimated 16% of total deaths annually. Atherosclerosis, a narrowing or blocking of arteries due to a plaque buildup, is one of the most common CVDs. In-stent restenosis (ISR) is a condition that leads to an excessive amount of neointima formation and a repeat narrowing of the vessel. To study the ISR process, a three-dimensional computational model, ISR3D, has been developed to simulate the process.</p>
+              
+                  <p class="media-body media-body-page article pn">An eﬃcient data-driven surrogate model based on Gaus-gian process regression was developed to substitute the original model for the evaluations in the inverse uncertainty quantiﬁcation. The vessel wall is modelled as a centre-based agent-based (AB) model, where individual cells are modelled like spheres, interacting via adhesive and repulsive forces. Bayesian IUQ requires thousands of runs of expensive computer simulations. The paper is arranged as follow.</p>
+              
+                  <p class="media-body media-body-page article pn">An agent-based model of arterial vessel wall consisting of three-layer layers is based on three-dimensional Poisson disc sampling by Brridson’s algorithm. Interactions take place between adjacent cells, and attractive forces are selected for repulsion and adhesion, respectively. The (engineering) strain is deﬁned as the elongation divided by the length of the initial length, and the stress is calculated as the force divided the force. This provides stress-strain relation for each tested direction of the specimen.</p>
+              
+                  <p class="media-body media-body-page article pn">The material model is based on a 6th order reduced polynomial strain energy potential. The arterial tissue is considered incompressible, therefore, Di parameters are set to 0 and the second term of equation 1 can be disregarded. Figure 3 shows stress-strain curves obtained by the material model for the stress response of the material. 2.1.2.3.4.5.6.7.9.7: The stress response is the same as that of an arterial wall.</p>
+              
+                  <p class="media-body media-body-page article pn">An agent-based arterial tissue model incorporates multiple methods of cell-cell interaction into the model, such as extracellular ﬁbres or cell adhesion. 6th order polynomial pairwise interaction force is used as an agent-agent attraction bond force: (R1 + R2)2.2.3. The bond strain is quantiﬁed by the formula: d − R1 − R2 (D) = d, d is distance between the centres of two interacting cells. The corresponding force coeﬃcients are constrained to be non-negative in order to achieve a minimum of potential energy for each bond.</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 2a presents a generated tissue sample of a single layer of arterial tissue in an unstrained state. Figure 2b shows the tissue that is subjected to uniaxial strain, with force coeﬃcients c1 = 2.14 and c2, · · ·, c6 = 0.8. The microscopic behavithe of the model arterial. tissue strongly depends on the tissue structure, such as the radius of cells and their arrangement, and their density of the tissue.</p>
+              
+                  <p class="media-body media-body-page article pn">Stress-strain curves obtained by the material model with 6th order reduced polynomial form of strain energy potential for three layers of arterial tissue. Surrogate model of Gaussian process regression is introduced to represent the latent function that maps input strain values and force coef-inducing-forces to output stress values. The stress value y can be considered as a function of strain value and polynomial coeﬃcients of force x ∈ Rd, where d denotes the dimension of inputs.</p>
+              
+                  <p class="media-body media-body-page article pn">A Gaussian process is a collection of random variables, any ﬁnite collec-centriction of which follows a joint multivariate normal distribution. The mean function is generally set to zero to avoid expensive computations. The Matern-type kernel is selected as a covariance function, also known as a kernel. It contains hyperparameters such as length-scale, signal variance and noise variance. They regulate a pri-glyori correlation between arguments. They assess accuracy of a surrogate model via root mean square error (RMSE) and standardised root mean squared error (SRMSE)</p>
+              
+                  <p class="media-body media-body-page article pn">The preliminary sets (PS) of the attractive force coeﬃcients and their lower and upper (UB) bounds of the sampling ranges for three layers (intima, media and/adventitia) of arterial tissue model and ”Joint” bounds covering all three ranges. The value of the R2 ranges from 0 (null predictivity) to 1 (perfect predictivity), while often having 0.7 as a threshold of the satisfactory (satisfactory) approximation.</p>
+              
+                  <p class="media-body media-body-page article pn">The surrogate model is based on force coeﬃcients (θ1, · · ·, θ6 and a single strain value sj: xi = (sj,..Η6), where j = 1,.., M.(11) The output as a scalar value of corresponding tissue stress yi. total M = 71 observations of stress responses for speciﬁc strain values. Table 2 shows the training ranges for intima, media and ad-repreventitia layers and ”Joint”bounds covering all three ranges.</p>
+              
+                  <p class="media-body media-body-page article pn">Bayesian calibration relates prior information with uncertainty to pos-terior information based on the likelihood of simulated outputs from the model. In each iteration, the pos-centric probability density functions of calibration parameters are updated in a way that is most likely to align with the benchmark data. The posterior-centric distributions of the parameters inferred after a suﬃcient number of itera-typicallytions are the most probable calibration of the model, which means that a model calibrated with a Bayesian model can eﬁciently produce expected behavithe by determining the best estimate of parameter uncertainties.</p>
+              
+                  <p class="media-body media-body-page article pn">They introduce a zero-mean Gaussian bias term that accounts for uncertainty sources, and its variance is calibrated throughout the IUQ process. Inverse uncertainty quantiﬁcation is formulated using the terminology of Kennedy and O’Hagan The benchmark data used for calibration is analytical stress response data from stress-strain tests, obtained by the material model based on the reduced polynomial strain energy potential and is denoted by z = (z1,., zNs)</p>
+              
+                  <p class="media-body media-body-page article pn">The data is produced as predictions of the Gaussian process surrogate model and is deﬁned as y(θi, xj) ∈ R, thus, y = (y1,., yNy), where Ny is a number of predictions. The total set of data for IUQ process is then denoted by D = (z, y) The relation is inferred between the analytical values of stress and the model response. The model inadequacy also called as model bias or model bias can be caused by missing physics, inaccurate modelling assumptions, numer-cular errors or numer-centric errors.</p>
+              
+                  <p class="media-body media-body-page article pn">The data is a simu-centriclation output of the material model of arterial tissue and not measurements from in vitro or in vitro experiments. They only consider residual variability, the model inadequacy and the model uncertainty. The individual observations are assumed to be independently and collectively distributed, thus they are uncorrelated and covariance matrices only containing variance terms. The total prediction error term has the following form:. The model or GP prediction uncertainty is not prevalent, for simplicity, ho-centricity of the model is assumed.</p>
+              
+                  <p class="media-body media-body-page article pn">The full set of uncertain calibration parameters is deﬁned as φ = (θ, σ2%), where φ is assumed to be independently distributed. The likelihood is modelled as a joint Gaussian distribution, whose mean is given GP model response for the prior uncertain parameters. The optimal parameters were not known in advance, uninformative distributions were used to obtain the prior marginal distributions. Calibration process was then performed iteratively to update the beliefs about the calibration parameters.</p>
+              
+                  <p class="media-body media-body-page article pn">For reusing posteriors, Gaussian kernel density estimation (KDE) was used to estimate the size of a random variable in a non-parametric way. This process of the calibration was then iter-ishlyated until the posterior distributions were converged. The Bayesian calibration process is performed using using a probabilistic programming package for Python PyMC3. The quality of the surrogate predictor was assessed via the total SRMSE and the coeﬃcient of the model&#39;s R2 on the validation data.</p>
+              
+                  <p class="media-body media-body-page article pn">Total SRMSE and predictivity coeﬃcient R2 of GP surrogate model for three arterial tissue layers. Figure 4 illustrates this comparison for intima, media and adventitia layers. In all three cases, the prediction of the surro-glygate model is in line with ABM stress behaviour, producing low RMSEs and narrow conﬁdence intervals of predictions. The full set of strain values were then compared to each other.</p>
+              
+                  <p class="media-body media-body-page article pn">Inverse uncertainty quantiﬁcation, using Bayesian calibration of the poly-nomial force coeﬃcients and the model uncertainty term, was conducted for three layers of the arterial tissue. Table 4 shows the statistics of the converged posterior distributions of the. parameters and the variance of the model inadequacy term after 80 it-ensiblyerations of Bayesian. Calibration process on the plots is presented via the sequential colthe scheme, where initial PDFs are shown by light yellow colours, which are. monotonically getting darker throughout the process and converging to targeted posterior distributions.</p>
+              
+                  <p class="media-body media-body-page article pn">Figure 6 illustrates the obtained stress-strain curves of GP and AB mod-likelihoods compared to the analytical data of the material model. The AB model shows suﬃcient precision in ﬁtting the ground-truth uniaxial grotesquestrain test data with RMSE value up to 2.1%, which veriﬁes that IUQ proce-generation-dure was successful and the aim of AB model to replicate realistic mechanical mechanical properties was achieved.</p>
+              
+                  <p class="media-body media-body-page article pn">1D marginal posterior distributions of the calibration parameters for the intima, media and adventitia layers of arterial tissue after 80 iterations of Bayesian calibration. Intima (a) Intima. (b)(b) Media(c) Adventitia. (c) Adventitia (d)) (g) Adentitia (g), Adentia (g.22) and adentia) are the parameters of the Bayesian Bayesian Calamistic Bayesian tests.</p>
+              
+                  <p class="media-body media-body-page article pn">The AB model of arterial tissue is implemented using OpenMP, which supports shared-memory, parallel multiprocessing programming. The average simulation time of a single uniaxial strain test ranges between 1.3 to 1.5 minutes wall clock. The GP model takes 0.2 milliseconds on average for producing the stress prediction irrespective of the magnitude of input coeﬃcient values. A single calibration iteration of the IUQ for one of three arterial layers would take 96 hours if running the original model.</p>
+              
+                  <p class="media-body media-body-page article pn">The benchmark data every IUQ and calibration problem relies on was obtained analytically by following an isotropic material model of arterial wall Separate surrogate models for intima, media and media were obtained. Bayesian calibration with a bias term correction was performed as a technique of IUQ to quantify uncertainties of attractive force coeﬃcients and estimate their values based on the analytical data. As a result, uncertainties about the unknown parameters were reduced, and the attractive forces of the current force function were formed.</p>
+              
+                  <p class="media-body media-body-page article pn">This paper applied inverse uncertainty quantiﬁcation to determine inter-action forces in the cell-resolved AB arterial tissue model from the exper-imental data of biological tissue’s macroscopic behavithe. ABM arterial. tissue layers were determined, providing a reasonable macro-.scopic stress-strain relationship for uniaxial strain tests. Ultimately, these models will help us to understand and treat cardiac pathologies. The methodology presented here can be applied to other microscale models where mechanical properties are important for osteopathology.</p>
+              
+          <a class="media" href="https://arxiv.org/abs/2204.02167" target="_blank">
+            <h2 class="paper">Paper</h2>
+          </a>
+      </span>
+  </div>
+</body>
+
+</html>

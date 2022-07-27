@@ -1,0 +1,44 @@
+{% include 'header.html' %}
+<title>Traverse Abstract - {{ article['title'] }} - {{ article['theme'] }}</title>
+<body>
+  <div  class="leftmargin">
+
+     <h1> <a href="/">Traverse Abstract</a></h1>
+     <p class="page-title"> {{ article['title'] }} </p>
+      <a class="media" href="https://arxiv.org/abs/{{ ref }}" target="_blank">
+        <h2>Paper</h2>
+      </a>
+      <br class="clean"/>
+      <span class="card">
+              <p class="page-theme"><a href="/theme/{{ article['theme'].replace(' ', '_') }}">{{ article['theme'] }}</a></p>
+              <img class="media-object" src="/html/sums/{{ article['png1'] }}" alt="{{ article['title'] }}"/>
+              <p class="media-body media-body-page article p1">{{ article['page1'] }}</p>
+              <img class="media-object" src="/html/sums/{{ article['png2'] }}" alt="{{ article['title'] }}"/>
+              <p class="media-body media-body-page article  p2">{{ article['page2'] }}</p>
+              {% for paragraph in paragraphs[3:] %}
+                  <p class="media-body media-body-page article pn">{{ paragraph }}</p>
+              {% endfor %}
+          <a class="media" href="https://arxiv.org/abs/{{ ref }}" target="_blank">
+            <h2 class="paper">Paper</h2>
+          </a>
+      </span>
+  </div>
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = window.location.href;
+    };
+    (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://traverse-abstract.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</body>
+
+{% include 'footer.html' %}

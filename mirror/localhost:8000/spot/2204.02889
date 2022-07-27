@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - A Cognitive Framework for Delegation Between Error-Prone AI and Human Agents - Artificial Intelligence</title>
+<body>
+  <div  class="leftmargin">
+
+     <h1> <a href="/">Traverse Abstract</a></h1>
+     <p class="page-title"> A Cognitive Framework for Delegation Between Error-Prone AI and Human Agents </p>
+      <span class="card">
+              <p class="page-theme"><a href="/theme/Artificial_Intelligence">Artificial Intelligence</a></p>
+              <img class="media-object" src="/html/sums/_sum_2204.02889.html.1.png"/>
+              <p class="media-body media-body-page article p1">A Cognitive Framework for Delegation Between Error-Prone AI and Human Agents. They investigate the use of cognitively inspired models of behavior to predict the behavior of both human and AI agents. The predicted behavior, associated performance with respect to a certain goal, is used to delegate control between humans and AI. They demonstrate this allows humans to overcome potential shortcomings of either humans or AI agents in the pursuit of a goal. They also demonstrate methods for training and utilizing AI systems with the human in mind. This can also be used for systems designed for easier use, interpretation, or control for a human end-user.&lt;br/&gt; With HCAI scenarios, the focus is with the human user or collaborator. This can take the form of humans using algorithm output to aid in decision-making,, sharedautonomy, sensory augmentation, autonomous driving –, human-robotic collaboration, etc. Therefore, they can see AI systems are not infallible and consequently still require awareness of these shortcomings. They investigate how to delegate control to the party either human or AI which, at any point in time, is predicted to perform best.</p>
+              <img class="media-object" src="/html/sums/_sum_2204.02889.html.2.png"/>
+              <p class="media-body media-body-page article  p2">They show that the performance of the error-induced agents is improved by up to 80% when combined as a team under the managing-human-AI agent. They provide a summary of the most signiﬁcant efforts to integrate AI into aspects of games with AI for richer worlds and interesting Non-Player Character behavior. They also show that a manager agent trained by observing the behavior of human and AI agents outperforms a randomly chosen randomly by 38% for key performance indices.&lt;br/&gt; Reinforcement Learning: Q-Learning and IBL is a method by which situations or observations are mapped to actions so as to maximize a reward signal. The maximization is performed by the learning agent through the exploration of an environment and the set of possible actions available. This exploration generates a feedback signal via rewards which the agent uses to learn actions resulting in the highest feedback in a given state. This can range from simple problems based on a Gridworld to complex problems such as the Maze Problem.</p>
+              
+                  <p class="media-body media-body-page article pn">An IBL navigating agent observes states, actions, and rewards based on the outcome of a game. The IBL agent performs moves according to the policy available at the current time. The manager selects which agent will chose the action in the current state. The same pseudo-procedure code used to train Q-learning and IBLnavigating agents is used for the manager agent. The algorithm for training the IBL navigigating agent is the same as the algorithm used for Q-Learning.
+ A simple game where a player needs to navigate in a grid, from a starting cell to a goal cell, they have considered Gridworld, a simple game. In a common and simple scenario, agents learn a behavior policy which guides them to a position s0 to a point sg. For policy learning, agents are given rewards which correspond to how desirable an action or sequence of actions may be. For instance, agents should avoid a wall square, which would cause a collision, so a negative reward discourages this behavior.</p>
+              
+                  <p class="media-body media-body-page article pn">In the experiments, the goal is for the navigating agents is to navigate the Gridworld grid cells and transition between states. The manager is required to select the agent at each step that will choose the action for the current state. For feedback, the IBL agents are only provided with a simple reward based on the outcome of the game. For each agent, pei determines how likely they are to make an error, which provides stochasticity. In error states, agents may ignore their policies and instead select an action which takes them off an optimal path to the goal.
+ They replicated simulations with 25 grids at increasing levels of complexity for each grid (approximately 13 levels per grid), and in the following they show average results plotted with error regions signifying the variance of the results. This demonstrates the difference in impact between randomly generated teaming and a learned model of teaming. They created 25 error-free Gridworld environments and tested the performance of managing agents in the same 25 environments with increasing numbers of error states. The results were then averaged across the different grids at each error state frequency level.</p>
+              
+                  <p class="media-body media-body-page article pn">The ratio of error states to open cells increased from 12.5% to 87.5%. The IBL agent is less likely to develop an earlier bias in its policy and have a larger number of under-explored areas, which would lead to decreased performance when forced off its optimal path. They measured mean game lengths determined by the length of path used to reach the goal state as well as the frequency of agent selection by the manager agents (random vs. IBL) The observed behavior is qualitatively equivalent, with performance of solo agents decreasing proportionally as the error frequencies increase.
+ The manager learns a strong preference for selecting the agents which are error-free for a given error state. The manager has no prior information on error probabilities, so it’s understanding of agent desirability is entirely based on observation and imperfect memory. The frequency of agent selection maintains this pattern as the frequency of error states is increased through the test cases. Notice the difference with respect to the random manager, which picks the same probability of 50% of agents with the same 50%.</p>
+              
+                  <p class="media-body media-body-page article pn">The Human AI-Net project has received funding from the European Union’s Horizon 2020 research and innovation program. They tested a team in which they represented both human and AI behavior through models utilizing standard RLand cognitively inspired IBL models with the inclusion of errors in their behavior. They demonstrated the impact on performance in the case of a highly divergent team of agents navigating a Gridworld environment with the help of a learning manager. The manager develops a very strong bias toward the better performing agent in joint error states, almost exclusively selecting the low error probability agent.
+ I. Rahwan, M. Cebrian, N. Obradovich, J.-F. Breazeal, J. W. Crandall, A. A. Christakis, I. D. Couzin, D.-C. Couzzin, M.-Obradov, J-F. Bongard, I-C. Brezeal, I.-D. Brezoeal, N.-F Bonnefon, A.-</p>
+              
+                  <p class="media-body media-body-page article pn">A. Cichocki and A. P. Kuleshov, “Future trends for human-ai collabora-centric intelligence using multiple intelligences and learning styles,” Computational Intelligence and Neuroscience, vol. 2021, 2021,. ‘How society can maintain human-centric artiﬁcial intelligence,’ in Human-centered digitalization and services. ‘Why they should have seen that coming: comments on microsoft’s tay ‘experiment.’
+ Researchers: “Learn2perturb: an end-to-end feature perturbation learning to improve.. robustness” in Proceedings of the IEEE/CVF Conference on..Computer Vision and Pattern Recognition, 2020, pp. 1241–1250. Researchers: &#34;Shared autonomy via deep-reinforcement learning via deep..reinforced learning&#34; Researchers: &#39;Take-over expectation and criticality in level 3 automated driving: a test track study on take-over.behavior in semi-trucks&#39;
+ Theory of minds: Understanding behavior in groups through inverse inverse plan-based planning,” in Proceedings of the AAAI conference on artiﬁcial intelli-phthalgence, vol. 33, no. 01, 2019,. Available: https://arxiv.org/abs/2101.09328, 2021 [Online]. Available: “Theory of mind” for more information on cognitive machine theory of mind,’. “Recent research on ai in games.”
+ Researchers: “On the utility of learning about humans for human-centricai coordination,” Advances in Neural Information Processing Systems, vol. 32, 2019. “Too many cooks: Coordinating multi-agent collaborative collaboration through inverse planning.” in Proceedings of the 19th In-ternational Conference on Autonomous Agents and MultiAgent Systems, 2020, pp. 2032–2034. “Cognitive modeling of automation adaptation in a time critical task,’ in Frontiers in Psychology, vol. 11, 2020.</p>
+              
+          <a class="media" href="https://arxiv.org/abs/2204.02889" target="_blank">
+            <h2 class="paper">Paper</h2>
+          </a>
+      </span>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - Position-based Prompting for Health Outcome Generation - Computation and Language</title>
+<body>
+  <div  class="leftmargin">
+
+     <h1> <a href="/">Traverse Abstract</a></h1>
+     <p class="page-title"> Position-based Prompting for Health Outcome Generation </p>
+      <span class="card">
+              <p class="page-theme"><a href="/theme/Computation_and_Language">Computation and Language</a></p>
+              <img class="media-object" src="/html/sums/_sum_2204.03489.html.1.png"/>
+              <p class="media-body media-body-page article p1">Position-based Prompting for Health Outcome Generation. They propose using a position-attention mechanism to capture posi-glymantic information of each word in a prompt to be ﬁlled, hence avoid-forming the need to re-construct prompts when the prompt’s linguistic pattern changes. This paper describes work performed at the Univer-Researchers-University of Liverpool and is not associated with Amazon.com. They demonstrate the ability of elicit-inducing answers (in a case study on health outcome generation) to not only common prompt tem-centricplates like Cloze and Preﬁx.&lt;br/&gt; Prompt sequences often used in PBL have amasked token or span (denoted by MASK) that appears either in the middle (Cloze-style) or at the very end of the sequence (Preﬁx style) The majority of the PBL tasks probe the knowledge possessed by pre-trained lan-guage models (PLMs) The rationale that LMs contain factual retrievable knowledge (LM-as-KB) is ostensibly justiשּׁ�ed and thus continually explored.</p>
+              <img class="media-object" src="/html/sums/_sum_2204.03489.html.2.png"/>
+              <p class="media-body media-body-page article  p2">The syntac-glytic and semantic structure of prompt inputs is a problem encountered in PBL tasks. They notice that, a fair amount of time is spent reconstructing prompt inputs through manually designing templates (Petroni et al., 2019), or corrupting prompts through deletion or permutation. They propose a strategy they denote position-based prompting (PBP) PBP is less concerned about linguistic pattern or shape the prompt takes on, but rather focuses on the words (that the prompts are composed of) and their positions relative to the [MASK] position. To test the approach, they investigate how wellbiomedical LMs store and recall information rel-ophobicevant to biomedical&lt;br/&gt; Large-scale LMs with billions of parameters have already been shown to recall facts that were observed in training data. The ground truth for these LMs to achieve this is already laid with handcrafting rules to follow in cre-icating the prompt input sequences they receive at the training stage. The majority of the tasks created in PBL tasks embed knowledge in the form of triples {subject,relation,object} such that LMs could correctly predict object entities when prompted with a sequence containing a subject and a relation.</p>
+              
+                  <p class="media-body media-body-page article pn">Position based representa-heticaltion of each token is then computed with respect to the type of prompt. For the Preﬁx, Post�aa�x and Peacx prompts, they obtain a prompt representation given by (5). For example, given a sequence with 3 masked positions, s.P (s) = {, [M]], x2, x3, [M], x5, x6, [P] and [P(yi|s)) The predicted probability of each vocabulary token is estimated via (7).
+ They use PLMs that are pre-trained on clinical texts such as PubMed, SciBERT and BioBERT (Beltagy) to test the ability to predict masks in masked positions. They then use position-based conditioning (PBC) to predict the mask tokens, calling these results &#39;PBC&#39; PBC. The training loss is deﬁned as the weighted-average combination of the two training losses as given in (10) The overall training loss of a PLM is de-denided as the combined training loss as a weighted/enforced combination.</p>
+              
+                  <p class="media-body media-body-page article pn">They examine the model’s generalisation ability to transfer knowl-receive-edge to unseen prompts in few-shot and zero-shot environments. They also use a pre-trained PLM that has not been pre-training speciﬁcally on clinical texts. They use Umls-glyphobicBERT (Gururan-.-guarded-scientist et al., 2019) and Biomed_RoBERTA (Devlin et al. 2019) to test the accuracy of the various biomedical Pre-trained Language Models for the outcome recalling experiments.
+ They tune all hyperparameters using the validation data, and obtain optimal values as fol-idated low-weights. Table 1 shows the performance of the proposed PBP method in the outcome generation task. PBC consistently outperforms the base-centricline across most of the clinically informed BERT-LMs (for both datasets), particularly for the PM re-ults. Contextual PBC further improves the performance (both in EM and PM), indicating the importance of preserving the contexts in the position-based representations.</p>
+              
+                  <p class="media-body media-body-page article pn">PBC can be used to retrieve facts such as health outcomes (biomedical entities) by simply augmenting contextual word representations with position-aware representations. The accuracy with which a PBC model correctly answers Preﬁx prompts is signif-uveicantly higher than that of the other prompts. The model struggles to correctly answer Mixed prompts compared to other types of prompts. They attribute this to the fact that, Mixedprompts are generally very long sequences (38.8%) and contain multiple masked positions to be predicted.</p>
+              
+                  <p class="media-body media-body-page article pn">They analyse the outcomes generated by the best model (SciBERT+Contextual PBC+EBM-COMET) during the few shot evaluation. Analysis of the accuracy (PM) with which best model recalls different types of factual information (outcome types) with varying span lengths and occurrence frequency(in the dataset) They see a trend of perfor-for-profit-mance improvement when the frequency of target-outcomes encountered during training increases, particularly for the Mixed and Cloze prompt.</p>
+              
+                  <p class="media-body media-body-page article pn">They show that the contextualised contextualised LSTMs can improve the ability of PLMs to recall facts such as facts encountered during training. They also show that they need not to worry about the nature of the prompt, but rather can retrieve information local to the prompt such as word positions to probe the LMs. They are the first to use position-based representations to enhance a word’s contextualised representation with position based representations to capture the phrase&#39;s position relative to the mask to be ﬁlled.
+ They further observe the proposed model. is able to generalise across unseen prompts, per-forming considerably well for Cloze and Mixed. (extremely rare in PBL tasks) prompts. With the. obtained experimental results, despite not aligning. prompts to commonly followed linguistic patbehaviours, results. are able to be generalised across. unseen prompts. The model.per-formed considerably well. well for. Cloze. and Mixed</p>
+              
+          <a class="media" href="https://arxiv.org/abs/2204.03489" target="_blank">
+            <h2 class="paper">Paper</h2>
+          </a>
+      </span>
+  </div>
+</body>
+
+</html>

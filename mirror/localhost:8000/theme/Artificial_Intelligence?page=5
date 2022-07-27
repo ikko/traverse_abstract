@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract</title>
+
+<body>
+  <h1><a href="/" class="section">Traverse Abstract</a></h1>
+
+  
+      <hr/>
+      <div class="theme"><a href="/theme/Artificial_Intelligence" class="section">Artificial Intelligence</a></div>
+      <br/><hr/>
+      
+          <span class="card">
+              <a class="media" href="/spot/2204.03525" target="_blank">
+                  <h2>Temporal Alignment for History Representation in Reinforcement Learning</h2>
+                  <img class="media-object" src="/html/images/_pdf_2204.03525.png"/>
+                  <p class="media-body"> Inspired by human memory, they propose to represent history with only important changes in the environment. The method (TempAl) aligns temporally-close frames, revealing a general, slowly varying state of the environment. TempAl surpasses the instantaneous-only baseline in 35 environments out of 49. TempAl is based on contrastive loss, which pulls embeddings of nearby observations to each other while pushing away other samples from the batch. It can be interpreted as a metric that captures the temporal relations of observations.</p>
+              </a>
+          </span>
+      
+          <span class="card">
+              <a class="media" href="/spot/2204.03471" target="_blank">
+                  <h2>DynLight: Realize dynamic phase duration with multi-level traffic signal control</h2>
+                  <img class="media-object" src="/html/images/_pdf_2204.03471.png"/>
+                  <p class="media-body"> Adopting reinforcement learning (RL) for traffic signal control is increasingly popular. Most RL methods use fixed action interval (denoted as tduration) and actuate or maintain a phase every tduration, which makes the phase duration less dynamic and flexible. They propose DynLight-C that adopts a well trained deep Q-network of DynLight and replace M-QL by a fixed cyclical control policy that actuate a set of phases in fixed order to realize cyclical phase structure.</p>
+              </a>
+          </span>
+      
+          <span class="card">
+              <a class="media" href="/spot/2204.02929" target="_blank">
+                  <h2>Beam Search: Faster and Monotonic</h2>
+                  <img class="media-object" src="/html/abstract.png"/>
+                  <p class="media-body"> Beam search is a popular satisficing approach to heuristic search problems that allows one to trade increased computation time for lower solution cost. They make two contributions to the study of beam search. They show how to make beam search monotonic; that is, they provide a variant that guarantees non-increasing solution cost as the beam width is increased. They also show how using distance-to-go estimates can allow beam search to find better solutions more quickly in domains with non-uniform costs.</p>
+              </a>
+          </span>
+      
+  
+      <hr/>
+      <div class="theme"><a href="/theme/Computation_and_Language" class="section">Computation and Language</a></div>
+      <br/><hr/>
+      
+  
+      <hr/>
+      <div class="theme"><a href="/theme/Computational_Complexity" class="section">Computational Complexity</a></div>
+      <br/><hr/>
+      
+          <span class="card">
+              <a class="media" href="/spot/2203.16978" target="_blank">
+                  <h2>Matrix Polynomial Factorization via Higman Linearization</h2>
+                  <img class="media-object" src="/html/abstract.png"/>
+                  <p class="media-body"> In continuation to the recent work on noncommutative polynomial factorization, they consider the factorization problem for matrices of polynomials. They show the following results. In the results, they show that the problem is solved by factorization matrices. They also show that factorization problems are solved by using a factorization matrix of matrices with a polynomic matrix. They conclude that the result is the result of factorizing matrices matrices for a linear algebra matrices. They then conclude that this is a result of the factization problem.</p>
+              </a>
+          </span>
+      
+  
+      <hr/>
+      <div class="theme"><a href="/theme/Computational_Engineering,_Finance,_and_Science" class="section">Computational Engineering, Finance, and Science</a></div>
+      <br/><hr/>
+      
+  
+</body>
+
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - Artificial_Intelligence</title>
+
+<body>
+
+        <h1> <a href="/">Traverse Abstract</a></h1>
+        <div class="theme"> <a href="/theme/Artificial_Intelligence">Artificial Intelligence</a></div>
+          <br/><hr/>
+        <div class="grid">
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.02929" target="_blank">
+                      <h2>Beam Search: Faster and Monotonic</h2>
+                      <img class="media-object" src="/html/abstract.png"/>
+                      <p class="media-body"> Beam search is a popular satisficing approach to heuristic search problems that allows one to trade increased computation time for lower solution cost. They make two contributions to the study of beam search. They show how to make beam search monotonic; that is, they provide a variant that guarantees non-increasing solution cost as the beam width is increased. They also show how using distance-to-go estimates can allow beam search to find better solutions more quickly in domains with non-uniform costs.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.02889" target="_blank">
+                      <h2>A Cognitive Framework for Delegation Between Error-Prone AI and Human Agents</h2>
+                      <img class="media-object" src="/html/images/_pdf_2204.02889.png"/>
+                      <p class="media-body"> With humans interacting with AI-based systems at an increasing rate, it is necessary to ensure the artificial systems are acting in a manner which reflects understanding of the human. In the case of humans and artificial AI agents operating in the same environment, they note the significance of comprehension and response to the actions or capabilities of a human from an agent&#39;s perspective. They investigate the use of cognitively inspired models of behavior to predict the behavior of both human and AI agents. The predicted behavior, and associated performance with respect to a certain goal, is used to delegate control.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.02863" target="_blank">
+                      <h2>Demonstrate Once, Imitate Immediately (DOME): Learning Visual Servoing for One-Shot Imitation Learning</h2>
+                      <img class="media-object" src="/html/images/_pdf_2204.02863.png"/>
+                      <p class="media-body"> DOME is a novel method for one-shot imitation learning, where a task can be learned from just a single demonstration and then be deployed immediately. DOME does not require prior task or object knowledge, and can perform the task in novel object configurations and with distractors. They show that DOME achieves near 100% success rate on 7 real-world everyday tasks, and they perform several studies to thoroughly understand each individual component of DOME to understand each component of the DOME system.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.02650" target="_blank">
+                      <h2>Spatio-Temporal Dynamic Graph Relation Learning for Urban Metro Flow Prediction</h2>
+                      <img class="media-object" src="/html/images/_pdf_2204.02650.png"/>
+                      <p class="media-body"> Urban metro flow prediction is of great value for metro operation scheduling, passenger flow management and personal travel planning. Different metro stations, e.g. transfer stations and non-transfer stations, have unique traffic patterns. They propose a spatio-temporal node embedding representation module to capture the traffic patterns of different stations. They employ a dynamic graph relationship learning module to learn dynamic spatial relationships between metro stations without a predefined graph adjacency matrix. Extensive experiments are conducted based on metro data in Beijing, Shanghai, Chongqing and Hangzhou.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.02633" target="_blank">
+                      <h2>DAGAM: Data Augmentation with Generation And Modification</h2>
+                      <img class="media-object" src="/html/images/_pdf_2204.02633.png"/>
+                      <p class="media-body"> In pre-trained language models, under-fitting often occurs due to the size of the model being very large compared to the amount of available training data. In light of this, they introduce three data augmentation schemes that help reduce underfitting problems of large-scale language models. Data Augmentation with Generation And Modification (DAGAM) combines DAG and DAM techniques for a boosted performance. They conduct data augmentmentation for six benchmark datasets of text classification task, and verify the usefulness of DAG, DAM, and DAGAM through fine-tuning and evaluation.</p>
+                  </a>
+              </span>
+            
+        </div>
+        <br/><hr/>
+        <span class="more boldfont">
+            <a href="/theme/Artificial_Intelligence?page=3">more...</a>
+        </span>
+</body>
+
+</html>

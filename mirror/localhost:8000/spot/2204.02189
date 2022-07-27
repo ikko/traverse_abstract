@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - Automating Staged Rollout with Reinforcement Learning - </title>
+<body>
+  <div  class="leftmargin">
+
+     <h1> <a href="/">Traverse Abstract</a></h1>
+     <p class="page-title"> Automating Staged Rollout with Reinforcement Learning </p>
+      <span class="card">
+              <p class="page-theme"><a href="/theme/"></a></p>
+              <img class="media-object" src="/html/sums/_sum_2204.02189.html.1.png"/>
+              <p class="media-body media-body-page article p1"></p>
+              <img class="media-object" src="/html/sums/_sum_2204.02189.html.2.png"/>
+              <p class="media-body media-body-page article  p2"></p>
+              
+                  <p class="media-body media-body-page article pn">The suboptimality of a specific policy obtained by an approach with respect to an objective is a factor of the Pareto-front of an approach. Suboptimality is based on the range of the naive approach, which is treated as a baseline for the sake of normalization. It is simply the ratio of the value achieved by a specific objective divided by an equivalent value for the naive-approach when all other objectives are held constant. They approximate suboptimity by linearly interpolating two points on the naive curve in order to obtain a precisely matching value.
+ Figure 2 compares the range of policies (points) identified by UCB as well as those determined by naive policy enumeration. UCB policies with low delivery times and low downtime greater than 300 are competitive with naive enumeration for downtimes less than 300. Figure 2 also shows that the best policy to minimize downtime that UCB could identify was approximately 70 (upper left most worrisome grey dot on Pareto curve). Tradeoff between downtime and delivery time onYS1 data was about 80% as wide as the corresponding policies.</p>
+              
+                  <p class="media-body media-body-page article pn">The Journal of Machine Learning.Research 17, 1 (2016), 1582–1612. The International Symposium on Software Reliability Engineering. will be held May 21–29, 2022, Pittsburgh, PA, USA. The conference will be hosted by the IEEE.computing.org, October 21, 2018, and February 28, 2019. For more information on Reinforcement Learning, visit www.i.comprepar.org/reward-reward.com/rewards.org.</p>
+              
+          <a class="media" href="https://arxiv.org/abs/2204.02189" target="_blank">
+            <h2 class="paper">Paper</h2>
+          </a>
+      </span>
+  </div>
+</body>
+
+</html>

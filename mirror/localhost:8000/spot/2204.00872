@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - Calibration window selection based on change-point detection for forecasting electricity prices - Computational Engineering, Finance, and Science</title>
+<body>
+  <div  class="leftmargin">
+
+     <h1> <a href="/">Traverse Abstract</a></h1>
+     <p class="page-title"> Calibration window selection based on change-point detection for forecasting electricity prices </p>
+      <span class="card">
+              <p class="page-theme"><a href="/theme/Computational_Engineering,_Finance,_and_Science">Computational Engineering, Finance, and Science</a></p>
+              <img class="media-object" src="/html/sums/abstract.png"/>
+              <p class="media-body media-body-page article p1">The Narrowest-Over-Threshold (NOT) method is a recently proposed change-point detection algorithm. It selects subperi-heticalods of past observations that are similar to the currently recorded values. They use a challenging dataset – day-ahead electricity prices in the German EPEX SPOT market. They observe a signiﬁcant improvement in predicting accuracy compared to commonly used approaches, including the Autoregressive Hybrid Nearest Neighbors (ARHNN) method. The work is inspired by a recent article, which utilized a relatively sim-urableple changepoint detection method</p>
+              <img class="media-object" src="/html/sums/abstract.png"/>
+              <p class="media-body media-body-page article  p2">The data-series spans six years spanning 2015-2020 and includes fthe series from the German EPEXSPOT market: electricity spot prices Pd,h, day-ahead load, wind and solar power generation ˆSd,H forecasts. The last 736 days constitute the out-of-sample test period. The remaining methods require less data for calibration. The last two years are exclusively used for estimating the Autoregressive Hybrid Nearest Neighbors (ARHNN) method</p>
+              
+                  <p class="media-body media-body-page article pn">The researchers used the same autoregressive structure as in. They used the ARX model to predict the price trajectory in neighboring markets. They found that prices tend to be more spiky in Spring 2020 than in Spring. The researchers say that the model predicts that prices will be more volatile in the coming years. They say that prices are more likely to be higher in the near future than in previous years. The results are based on NOT-selected (black) and discarded (gray) periods in the two-year calibration window.</p>
+              
+                  <p class="media-body media-body-page article pn">The EPF literature to treat every hthe as a separate time series. They compare seven types of approaches that all use ARX as the underpinning of the ARX model. The autoregressive (AR) dynamics are captured by the lagged prices from the same hthe yesterday, two and seven days ago. NotH(728) performs best for long calibration windows and oﬀers little or even no gain for τ &lt; 1 year. The authors evaluate the forecasting performance of the seven approaches presented in in terms of the root mean squared error (RMSE)</p>
+              
+                  <p class="media-body media-body-page article pn">Researchers from Julia Nasiadka, Weronika Nitka, and Rafa�l Weron have proposed a novel method for selecting calibration subperiods based on Narrowest-Over-Threshold (NOT) change-point detection RMSE errors in the out-of-sample test period (left panel) A heatmap of the p-values for the multivariate Diebold-Mariano test, for each pair of meth-opodods (right panel) The smaller the p values, the more signiﬁcant is the diﬀerence between the forecasts of a model on the x-axis</p>
+              
+          <a class="media" href="https://arxiv.org/abs/2204.00872" target="_blank">
+            <h2 class="paper">Paper</h2>
+          </a>
+      </span>
+  </div>
+</body>
+
+</html>

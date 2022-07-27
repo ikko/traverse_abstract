@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - ZETAR: Modeling and Computational Design of Strategic and Adaptive Compliance Policies - </title>
+<body>
+  <div  class="leftmargin">
+
+     <h1> <a href="/">Traverse Abstract</a></h1>
+     <p class="page-title"> ZETAR: Modeling and Computational Design of Strategic and Adaptive Compliance Policies </p>
+      <span class="card">
+              <p class="page-theme"><a href="/theme/"></a></p>
+              <img class="media-object" src="/html/sums/_sum_2204.02294.html.1.png"/>
+              <p class="media-body media-body-page article p1"></p>
+              <img class="media-object" src="/html/sums/_sum_2204.02294.html.2.png"/>
+              <p class="media-body media-body-page article  p2"></p>
+              
+                  <p class="media-body media-body-page article pn">ZETAR provides a unique, quantitative, and automated framework to provide strategic and customized recommendations to elicit compliant behaviors from insiders. Insider threat mitigation needs to rely on an integrated technical (e.g., audit and access control) and social policies and positive organizational culture) solution –
+ ZETAR leverages feedback of insiders’ compliance status and the linear structure of the solution to develop an efﬁcient incentive learning algorithm. They use the pronoun ‘he’ for an employee (or an insider interchangeably) and ‘she&#39; for the defender.
+ They present the system model and computational framework of ZETAR in Sections II and III, respectively. Each design involves two players, the organizational defender D and an employee U. The design involves different scoring and categorization based on different scoring, categorization criteria. They provide customized designs for employees with different incentives.</p>
+              
+                  <p class="media-body media-body-page article pn">The defender can assess an organization’s current SP category based on penetration tests, honeypots, and alert analysis Since SP changes probabilistically based on the behaviors of attackers, users, and defenders, they let bY(yj) denote the probability of the organization to be in the state of SP yj. With a slight abuse of notation, they deﬁne bY ∈ bY as the probability distribution over Y.
+ The action set A := {ak}k∈K ∼contains employees’ activity data, including their key strokes, full application contents (e.g., email, chat, data import, data export), and screen captures To reduce non-compliant behaviors, the defender applies an Audit Scheme (AS) xi,i ∈ I := {1,···,I},glyglyto all employees from a library (denoted as a set
+ Non-malicious employees can fail to adhere to security rules for self-interests. An employee may use a public network to transmit conﬁdential data to save time. E h includes three compliance statuses, i.e., complete compliance, complete violation, or partial compliance.
+ If the defender adopts AS xh ∈ X,h ∉ X,h ≽ = {x1,···,xH+1} (respscheme) is the defender’s chosen AS from the library of I = H + 1 ASs.</p>
+              
+                  <p class="media-body media-body-page article pn">In this model, the defender selects an AS x ∈ X based on the current SP category with a frequency ψ(x|y) ∈ She randomly selects h rules (respno rules) from H to inspect. The defender needs to choose AS strategically as inspecting more rules reduces cyber risks at a higher cost.
+ The defender’s utility vD(y,x,a) is an abstraction of his extrinsic and intrinsic incentives to take action. An employee&#39;s utility vU can incorporate monetary incentives (through reward and recognition) and disincentives (through penalty and punishment) from the defender. On the other hand, vU represents an employee&#39;s proclivity for compliant behaviors.
+ The audit policy remains unchanged as a consistent policy is more implementable and agreeable to employees over the entire corporate network. As stated in, transparent criteria for organizational policies can create a culture of trust and consequently serve as a positive incentive to reduce non-compliance. They introduce the customized recommendation mechanism shown in the third stage of Fig2.</p>
+              
+                  <p class="media-body media-body-page article pn">The defender repeatedly assesses the security posture and implements a stochastic audit policy to inspect employees’ actions. The defender then keeps the assessment result secret from employees. The audit policy is further incorporated to improve employee compliance in corporate networks. ZETAR also implements a recommendation mechanism to improve employees&#39; compliance.
+ Employee’s initial compliance status represented by a0 ∈ A may negatively affect corporate security. The defender can recommend an action to an employee to maximize his utility concerning the prior statistics bY ∆Y and ψ ∈ Ψ. Given the current SP category and the audit policy, the chosen AS remains unknown to the employees.
+ The defender can manipulate employee’s belief of the current SP category and the chosen AS, thus affecting his perception of the utility and enhancing compliance. As will be shown in Section II-D4, by strategically choosing the recommendation policy, the defender can strategically choose the policy. The defender recommends the action according to a stochastic recommendation policy.</p>
+              
+                  <p class="media-body media-body-page article pn">Employee’s Belief Update and Best-Response Action: Denote bY,X,X and bS as the joint prior distribution of the current SP category and the chosen AS. Following the transparent criteria in Section II-B, the recommendation policy is assumed to be common knowledge. The assumption can be justiﬁed by the fact that an employee can learn the recommendations policy from repeated observations.
+ For rational employees who have Bayesian rules to update their beliefs, each recommendation s ∈ S under recommendation policy results in posterior belief bπphthalphthalphthalpianyY,X(y,x) Y. The recommendation mechanism (i.e., π ∈ Π and s ∉ S ) can change the employees’ marginal beliefs of the current SP and the implemented AS as well as their joint beliefs.
+ They summarize the above observations in Remark 1 (Conditional Belief Invariance) A recommendation policy has no impact on a person’s expected incentive. With a recommendation policy π ∈ Π, the employee takes a best-response action to maximize his posterior utility under recommendation s S.</p>
+              
+                  <p class="media-body media-body-page article pn">The defender can send recommendations that improve compliance with a high probability so that the compliance status improves on average. The defender’s recommendation policy may not be trustworthy to an employee. They formally quantify the improvement of compliance and its average impact on the corporate security in Section II-D6.
+ They formalize trustworthy recommendations and trustworthy recommendation policies in Deﬁnition 1 and 2. An employee complies with a recommendation only if it is trustworthy (respuntrustworthy) An employee with an expected incentive ¯vU only takes the recommended action if it follows (respdoes not follow) the recommendation.
+ A recommendation policy is Completely Trustworthy (CT) If all recommendations are trustworthy (respuntrustworthy) All CT (respCU) recommendation policies formulate the same policy set as a partially Untrustworthy (PU) policy set. The optimal action of an employee U or the defender D at AS x x ∈ X and SP is optimal.</p>
+              
+                  <p class="media-body media-body-page article pn">A zero-information recommendation policy denoted by πz does not change the employee’s belief, i.e., bπz X (x|s) = bX(x) and does not bring new information to the employee. The defender can implement CT recommendation policies regardless of ZETAR settings in Sections II-A, II-B, and II-C.
+ Zeroand full-information recommendation policies are CT, i.e., πz, πf is nonempty regardless of ZETAR settings. The defender’s Expected Expected Utility (EPU) under recommendation policy π ∈ Π as follows Deﬁnition 3 (CT Feasibility) To capture the average impact of an employee&#39;s com-ophobicpliance status on corporate security under different recommendations, they de�
+ The defender’s goal is to design the optimal recommendation policy π∗ ∈ Π that maximizes the average compliance enhancement level (ACEL) They refer to the EPU difference JacelD.DiopiopiopDiopi as the optimal ACEL, i.e., Jacel.iopiopi.iopi(bX, ¯vD,¯vD) := JD(πz,bX) +JD( πz</p>
+              
+                  <p class="media-body media-body-page article pn">The defender determines a uniﬁed audit policy to inspect all employees’ behaviors yet designs customized recommendation policies. The defender needs to strike a balance between the optimal ACEL and the Level of Recommendation Customization. ZETAR is a mathematical programming problem where the defender has complete information of an employee’s expected incentive.
+ The defender can narrow the policy search space to Πct ⊆ Π to achieve the optimal ACEL, i.e., Jacel,i.e. The defender’s LoRC, πd as a default recommendation policy, is restricted to be 0 and π(sk|x)log π (sk)log) is 0 as limz→0+ zlogz = 0.
+ Denote rη as the maximizer and the optimal value of Pη, respectively, for all. Denote π∗apologeticη as the maximumizer and an optimal value for all of R+. For all, R+ is R+ or R+, with R+ being the maximum value for P+.</p>
+              
+                  <p class="media-body media-body-page article pn">The CT feasibility in Remark 3 and the boundedness of vD, the program Pη is feasible and bounded for all. The defender aims to design CT recommendation policies that satisfy constraints (a), (b), (c) and (d), compose the set Πct ⊆ Π.
+ Deﬁne shorthand notation ¯βη(sk,x,λη) can take any ﬁnite values. They obtain the dual problem in Proposition 1 (Strong Duality) and the bounds for its optimal value in Proposition 2.
+ Pη and Dη have the same optimal value. Set the gradient of the Lagrangian function of P�η concerning π to 0 yields the optimal value for all k ∉ K,x x,x x, K, X and X.</p>
+              
+                  <p class="media-body media-body-page article pn">The lower and upper bounds of rη are r and r+log(K)/η, or Dη. The optimal policy has the closed-form expression in (6) about the optimal value of the optimal policy π∗ophobicη(sk,al) and the default recommendation policy.
+ ZETAR designs fully customized recommendation policy (i.e., LoRC η goes to inﬁnity), then the dual problem D∞ is a linear program as shown in Proposition 3. The dual problem degenerates to the following linear program: the program:D∞:DeŬ�ne ˆβ∞(x) := β(x)/bX(x), where β(X) = 0 if bX</p>
+              
+                  <p class="media-body media-body-page article pn">The dual problem D∞ provides an interpretation of ZETAR with fully customized recommendationpolicies from an employee’s perspective. Each employee aims to minimize his effort to satisfy the security objective of the corporate network under AS x ∈ X and recommendation sk ∈ S.
+ The variable ˆβ∞(x) represents the employee’s effort at AS x ∈ X, and the effort is required to satisfy the security objective at each AS for all recommendations. An employee who prioritizes convenience over security chooses the frequency of actions to minimize his expected effort.
+ They characterize the optimal ACEL under different levels of misalignment between security objective vD and an employee’s incentive vU in Section IV-C. The characterizations are useful to develop efﬁcient algorithms in Section V when employees’ incentives are unknown.</p>
+              
+                  <p class="media-body media-body-page article pn">Deﬁnition 5 (Linear Transformation of Incentives) defines the linear transformation of a player’s utility. The defender applies the same optimal recommendation. policy to both employees. The proof directly follows from De ﬁne the proof of ZETAR.
+ The EPUs of two defend-centricers with security objectives vD and vlt.D, respectively, are linearly dependent, i.e., JD(π,bX, ¯vltD,¯vU) = J.J. (¯vD) for all. The proof directly follows from (4) and the fact that that... (5) and (6) that. (7) is the proof that linear utility transformation does
+ Deﬁne ˆvkp := [bX(x1)¯vp(x 1,ak),x2,x 2,x3,x4,x5,x6,x7,x8,x1, x4, x5, x6, x7, x8, x2, x3, x10, x12, x13, x14, x16, x15, x17, x</p>
+              
+                  <p class="media-body media-body-page article pn">Proposition 4 identifies ˆπk as the sufﬁcient statistics of the policy matrix. It is used to determine the trustworthiness of recommendation sk ∈ S. The defender can design the k-th policy purposefully for all k ∉ K to learn k-the-th PT policy sets.
+ The defender can determine the k-th PT policy set, i.e., ˆΠk, independently from other PT policy sets. They characterize an employee’s EPU and the convexity of the CT policy set in Lemmas 3-5.
+ The summation of a group of group of PWL and convex functions is PWL. Then, the sumance of the group of functions that induces action, is then Convex. The sumance function is then the summation function of the function that induces the function of a recommendation policy.</p>
+              
+                  <p class="media-body media-body-page article pn">The KK sets C{l1,···,lK, ˆΠct = C{1,K} = C {1, · · ·, lK;C {l1k; lK: lK, lk: lk; ck: ck; k: k; lk/lk; mk/k: k/lK; k/ck: K/k; K/
+ The defender’s EPU (JD) is (possibly discontinuous) piecewise linear concerning ˆπk (K) and (C) The entire recommendation policy set is divided into KK mutually exclusive(possibly empty) sets. They show that any permutation of the recommendation policy leads to non-compliance in Proposition 5.
+ The employee&#39;s EPUs (or the defender’s EPU) are the same under all permuted recommendations policies. The proof directly follows from Proposition 4 and Proposition 5. The argument is that it is impossible to make all policies that are permuted into a single policy.</p>
+              
+                  <p class="media-body media-body-page article pn">CT and CU policy sets have the same cardinality, as for each CT recommendation policy, there exists a CU recommendation policy. The maximum volume of the CT (or CU) policy set cannot exceed half of the hypercube’s volume. Both recommendation policies result in the same EPU for an employee (or the defender)
+ The volume formed by the points associated with CT (or CU) recommendation is upper and lower bounded by 1/2 and 0, respectively. This limit of volume in Corollary 2 helps reduce the search space of the CT policy set from the entire hypercube space to half of it.
+ When K = 2, the maximum volume formed by CT recommendation policies is achieved only if an employee has indifferent preference over the two actions under the prior statistics. The equality condition holds for recommendation s1 (resps2) If the 1/2 volume of the CT policy-setting is achieved, the defender, regardless of the security objective vD, achieves the same EPU that the defender achieves.</p>
+              
+                  <p class="media-body media-body-page article pn">When an employee has more than two actions (i.e., K &gt; 2), they extend the prior indifference condition in Corollary 3 to the prior non-dominance condition in Proposition 6. The volume formed by the points associated with the k-th PT policy set is upper-bounded by 1/2.
+ They prove it by contradiction; i.e., if the prior non-dominance condition holds, then the volume can&#39;t exceed 1/2. The volume of a hypercube cannot be larger than one among K hypercubes can have a volume larger than 1-2 for non-trial cases.
+ Deﬁnition 6 (Malicious, Self-interested, and Amenable Insiders) An employee is categorized as amenable (respmalicious) if he shares the same (resp.lyopposite) action preference with the defender for each SP and AS.</p>
+              
+                  <p class="media-body media-body-page article pn">An employee is self-interested if he is neither amenable nor malicious. An amenable insider has a strong sense of responsibility to enhance security. A malicious insider, e.g., a disgruntled employee or an employee whose credentials have been stolen, can misbehave or sabotage corporate security on purpose.
+ The defender’s EPU in (4) becomes apologetic˜JD(πz,bY,X,vD,vU) over bY, X. The defender&#39;s EPU is the concave closure of function JD(J) over a variable. The defenders’ EPU becomes -apologeticy∈Y,x,x.x,X(y,x) and X(Y)
+ The convex hull of a convex function depends only on the vertices of the convex set BY,X, i.e., vD(y,x, vD, vU) The optimal ACEL equals 0. They arrive at the result of the result: ˜JD(πz,bY,X,.X,vD,vU) is PWL and convex (respconcave)</p>
+              
+                  <p class="media-body media-body-page article pn">An insider is amenable if ρsa D,U &gt; 0, or malicious if the insider is malicious. They extend the discussion on the optimal ACEL concerning amenable and malicious insiders in Proposition 7 and 8, with a closed-form solution for malicious and amendable insiders. ZETAR degenerates to the Bayesian persuasion model 
+ For an amendable employee, Proposition 7 shows that within the entire action preference, the optimal action is the decisive factor. If an employee with incentive vU and the defender with security objective vD prefer the same optimal action for each AS and SP, they can construct ˜JD(π∗,bY,X, X,v0ophobicD,vU) as long as v0.1D(y,x, ˜amax(y) =
+ Based on Lemma 6, Lemma 2 yields JD(π,bX,¯veqD, ¯vD,¯vU) + J(πz, bX) = J(bX) + X, which leads to (9) Then, J∗apologeticD(BX, ¯veq,) = Jâ˚reglyglyglyphicD(x) + x, X, x, y, Y, y</p>
+              
+                  <p class="media-body media-body-page article pn">Proposition 7 contributes to an efﬁcient computation of the defender’s optimal EPU when she shares the same optimal action with an employee. The defender should share full information (i.e., adopt πf ∈ Πct) with amendable employees.
+ For malicious employees, they introduce a class of invariant perturbations of the defender’s security objective that achieve the same optimal ACEL of Jacel,∗D (bX) = 0 in Proposition 8. By synchronizing information with compliant employees, the defender facilities amendable employees to contribute to corporate security.
+ Lemma 6 proves that ˜JD(π∗,bY,X,vD,vU) as the concave closure of ˜J(πz, bY, X, vD, vU) is PWL and the closure of J∗D(bX, ¯vipD,¯vU), is J.apologeticD. Remark 9 provides the defender with the guidance of full-information disclosure to amendable employ
+ Proposition 8 leads to the following information about Proposition 8. Proposition 8 is the result of the debate on whether it should be allowed to be legalized in the U.S. State of the State of California. The debate on Proposition 8 continues to debate the merits of Proposition 8 in California.</p>
+              
+                  <p class="media-body media-body-page article pn">Revealing no information to a malicious employee may not always result in the best outcome. The defender should disclose information strategically rather than hide information even when the employee tends to take an action that results in the least utility to the defender. They provide primal and dual convex mathematicalprograms in Section III to compute the optimal recommendation policy for a given LoRC.
+ A straightforward learning algorithm aims to directly optimize the defender’s EPU JD(π,bX,¯vD, ¯vU) over all recommendation policy. For a new employee with an unknown incentive, the defender at stage m ∈ {1,2,···} recommend actions according to recommendation policy πm ∈ Π. At stage m+1 the defender uses her EPU evaluation to update the recommendation policy from stage m +1 to �
+ In Algorithms 1 and 2, they design an efﬁcient learning algorithms targeting the ZETAR features characterized in Section IV. In particular, the defender only learns the CT policy set and then uses programs in Section III to compute the optimal recommendation policy.</p>
+              
+                  <p class="media-body media-body-page article pn">The k-th cube-vertex policy set deﬁned as ˆΠk V. For each k ∉ K contains the recommendation policies that represent the vertices of the k-rd hypercube of dimension I. If each k �K contains a policy that represents the vertice of a hypercube, the recommendation policy set is denitioned as V kiopioplpt.
+ An employee’s response to each recommendation determines flk( ˆπ) as shown in line 5 of Algorithm 1. The set is convex and represents a convex polytope in each hypercube of dimension I-dimension. In Algorithm 2, they aim to obtain the vertex representation (V-representation) of the k-th PT policy set.
+ A convex polytope can be uniquely represented by a ﬁnite set of vertices. The set of recommendation policy vectors of the k-th PT policies that represent those vertices of ˆΠk K ��:¯V k �™™™pt.</p>
+              
+                  <p class="media-body media-body-page article pn">The algorithm is guaranteed to stop within log2(1/2) steps. It can be used to construct constraints in the primal convex program Pη, P+ in Section III. The algorithm uses binary search in lines 11+18 to determine the additional polytope vertes and add them to the set of polytopes.
+ ZETAR is designed to improve compliance for employees with different incentives. They provide a graphical illustration in Section VI-B when I = J = K = 2. They provide an example of the design of ZetAR in Fig1 to help employees comply with their incentives.</p>
+              
+                  <p class="media-body media-body-page article pn">An employee’s utility is divided into intrinsic and extrinsic incentives, denoted by vU,I and vγ.U,E, respectively. The extrinsical incentive in Table I(a) is independent of SP and captures the impact of AS on compliance. 26.2AModel Description: They consider binary security posture and binary audit schemes.
+ The intrinsic incentive in Table I(a) is independent of AS and captures an employee’s internal inclination to comply under different SP realizations. For example, an employee compliant with the air-gap rule has to spend additional time and effort to transfer data using a CD rather than a USB.
+ Based on Lemma 1, they can choose ρtr.u (yhr,x) = −rhr.glyglyglyU (ylr,x), or rlr.glyphophobicU (x), for all x ∈ X without affecting the employee’s compliance and the optimal recommendation policy to achieve the optimal ACEL.</p>
+              
+                  <p class="media-body media-body-page article pn">Deﬁnition 7 (Compliance Attitudes) defines three compliance attitudes of employees. An employee is said to be compliance-seeking, compliance-averse and compliance-neutral if both chr.U and clr.u are positive, negative, and zero. The defender’s security objective vD can accurately identify non-compliant actions yet introduce a cost.
+ When an employee takes a compliant action, the risk of insider threats is reduced to a minimum and is represented as the defender’s payoff rsaD. Figure3a and Fig3b illustrates Algorithms 1 and 2 in Section V under compliance-seeking and compliance-averse employees, respectively.
+ Algorithm 1 aims to determine whether the recommendation policies represented by the vertices of the hypercube are CT or CU. Algorithm 2 aims to further determine the additional polytype vertices needed for the CT polytype. The CT and CU policy sets are shown to be convex (in Lemma 4), centrosymmetric (in Corollary 1), and with volume ranging from 0 to 1/2.</p>
+              
+                  <p class="media-body media-body-page article pn">The blue upward and the red downward triangles represent the CT and CU recommendationspolicies, respectively. The orange lines show the sequence of binary search iteration in Algorithm 2. For example, from the vertices (0,1), the neighboring cube. (resp. (1,1) in Fig3a (resp3b), and line 15 (respline 17) is adopted in the binary search.
+ The second step evaluates the recommendation policy represented by the point (0,3/4) and the policy is CT. Thus, they update the lower bound lb based on the else condition in line 18 of Algorithm 2. The third step (represented by the third-longest orange line) evaluates the policy.
+ For example, if the blue circle in Fig3b is (0,w),w ∈, then the constraint is p2 ≥ (1−w)p1 +w. The constraint is (1+w) p2 +w.</p>
+              
+                  <p class="media-body media-body-page article pn">They investigate the initial compliance of employees with three compliance attitudes in Deﬁnition 7 with different CPT parameters. Figure 4 illustrates the belief threshold versus the extrinsic penalty for non-compliance. Figure 5 shows that increasing penalty increases with increasing penalty. Figure 8 shows that an employee with three CPT attitudes with CPT distortions is more likely to be compliant. Figure 10 shows that the penalty increases to 0.8 and 0.3.
+ Insiders’ belief thresholds versus the extrinsic penalty can make employees more likely to take compliant action aco (i.e., a smaller belief threshold) Given an extrinsical penalty, compliance-averse (respcompliance-seeking) insiders are the least likely to comply with the largest (respsmallest) belief thresholds.
+ The posterior belief is independent of vD,vU, vU,η and γ. The plot illustrates the Bayesian plausibility of Bayesian belief updates in Section II-D4. Fig.5 demonstrates the impact of different recommendation policies on an employee’s posterior belief.</p>
+              
+                  <p class="media-body media-body-page article pn">Fig5: An employee’s posterior belief bπ677X(xca|s) under recommendation s = sic and s = sco in brown and pink, respectively, vsπ(sic|xca) ∈ in x-axis and π(sic |xsa) in y-axis. Fig6b, the policy sets (also illustrated in Fig3a) illustrated by the contthe plots on the
+ An improper recommendation policy can lead to a negative ACEL, but the optimal ACEL is always non-negative. For compliance-seeking insiders, the the defender’s prior utility JD(πz,bX, ¯vD,¯vU) and the optimal EPU JD( ω) are both 1.8.
+ ZETAR can well adapt to accommodate insiders with different compliance attitudes, say researchers. Zetar can achieve a large compliance enhancement for compliance-enhanced compliance-related activities. ZETar can also adapt to those with different. compliance attitudes and achieve a larger compliance enhancement, say experts.</p>
+              
+                  <p class="media-body media-body-page article pn">The ACEL JacelD(π,bX,¯vD, ¯vU) versus π(sic|xca) in x-axis. The optimal recommendation policy π∗ on the defender’s and an employee’�s utilities under different likelihoods of high-risk SP. In Fig7, the belief threshold tbt ∈ divides the entire prior belief region into the compliant region bY(yhr
+ Under non-compliant regions where an employee does not comply, the optimal recommendation policy induces positive ACEL. Insiders can recommend compliant actions, i.esco, with a high probability as insiders change from compliance-averse to compliance-seeking. The peak of the optimal ACEL increases, and the belief threshold reduces.
+ Despite the linearity of the defender’s prior utility, her EPU under the optimal recommendation policy in red and the ACEL in brown are nonlinear. In Fig7, they further observe the fact that an employee&#39;s prior utility JU(πz,bX, ¯vU) coincides with his optimal EPU. The black solid lines for all bY(yhr) are shown in Fig7.</p>
+              
+                  <p class="media-body media-body-page article pn">Utilities, the optimal ACEl, and the optimal recommendation policies in the ﬁrst, second, and third rows, respectively, versus prior statistic bY(yhr) ∈ [0,1) concerning insiders with three compliance behaviors. Figure 7 shows the defender’s prior utility JD(πz,bX, ¯vD,¯vU), her EPU JD( π∗(sic|xca) and �
+ When K = 2, an employee’s EPU is not smaller than his innate expected utility JU(πz,bX, ¯vU) for all of his EPU under a CT recommendation policy π ∈ Πct and bX ∈ BX.</p>
+              
+                  <p class="media-body media-body-page article pn">This work has developed ZETAR as a proactive framework to improve compliance of insiders with different incentives by zero-trust audit and strategic recommendations. The defender manages to control an employee’s incentives in favor of the corporate security objectives. They have formulated primal and dual convex problems with different levels of recommendation customization to provide a uniﬁed computational framework for ZetAR.
+ The dual problem has provided us with an interpretation of ZETAR from an employee’s perspective; i.e., each employee aims to minimize his effort to satisfy the security objective of the corporate network. They have characterized the trustworthy recom-ishlymendation policies and compliance status under malicious, self-interested, and amenable insiders.
+ They have developed efﬁcient feedback algorithms to learn the CT policy sets determined by an employee’s incentive. They have applied ZETAR to a case study to corroborate its effectiveness in enhancing compliance for employees with different extrinsic and intrinsic incentives.</p>
+              
+                  <p class="media-body media-body-page article pn">They have observed that ZETAR introduces non-negative payoffs to both the defender and employees for binary action sets. They also observed that the payoffs are not negative to both defenders and employees. They conclude that ZetAR is an effective way to reduce insider threats in the workplace.
+ Harris, “Insider threat mitigation guide,” Cybersecurity and Infrastructure Security Agency, TechRep.com. Harris. Harris: ‘Insiders and insider threats-an overview of deﬁnitions and mitigation techniques.” Harris, CITTeam, ‘Unintentional insider threats: A foundational study’
+ The game-theoretic incentive-based mechanism for intrusion detection networks,” Guidex, “Guidex’s” guidex, was published in the IEEE Journal on Selected Areas in Communications, vol30, no11, pp2220–2230, 2012.
+ PZou, QChen, QXia, CHe, and CKang, “Incentive compatible pool-based electricity market design and implementation: A Bayesian mechanism design approach’. ——, ‘A dynamic game framework for rational and persistent robot deception with an application to deceptive pursuit-evasion,” IEEE.Transactions on Automation Science and Engineering, 2021. 101579, 2019. 
+ An incentive mechanism design for mobile crowdsensing with demand uncertainties,’Information Sciences, vol528, pp1–16, 2020. Li, and YWang, ‘An incentive mechanism’, they say. Li, Y.Wang and Y. Wang, “An incentive scheme design for mobiles crowdsensing,” Information Sciences, Vol528, is vol528.</p>
+              
+                  <p class="media-body media-body-page article pn">The committee on national security systems (cnss) glossary has a glossary. The glossary is available at the CNSSI, Fort 1322 Meade, MD, USA, TechRep, vol1323, pp.1324–1325, 2015.
+ The article was published in the journal American Economic Review, vol101, no6, in 2011. The article is based on the work of L.A. Silowash, DCosta, and M.Albrethsen, “Navigating the insider threat tool landscape: low cost technical solutions to navigate an insider threat landscape” in 2018 IEEE Security and Privacy Workshops.
+ Huang and QZhu, “Radams: Resilient and adaptive alert and attention management strategy against informational denial-of-service(idos) attacks,” arXiv:2111.03463, 2021. The American Statistician, vol39, no1, 1985.</p>
+              
+          <a class="media" href="https://arxiv.org/abs/2204.02294" target="_blank">
+            <h2 class="paper">Paper</h2>
+          </a>
+      </span>
+  </div>
+</body>
+
+</html>

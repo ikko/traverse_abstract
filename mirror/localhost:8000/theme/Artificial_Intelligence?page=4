@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - Artificial_Intelligence</title>
+
+<body>
+
+        <h1> <a href="/">Traverse Abstract</a></h1>
+        <div class="theme"> <a href="/theme/Artificial_Intelligence">Artificial Intelligence</a></div>
+          <br/><hr/>
+        <div class="grid">
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.01774" target="_blank">
+                      <h2>Reducing SAT to Max2XOR</h2>
+                      <img class="media-object" src="/html/abstract.png"/>
+                      <p class="media-body"> Representing some problems with XOR clauses (parity constraints) can allow to apply more efficient reasoning techniques. In this paper, they present a gadget for translating SAT clauses into Max2XOR constraints, i.e. xOR clauses of at most 2 variables equal to zero or to one.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/" target="_blank">
+                      <h2>Towards Deep Industrial Transfer Learning: Clustering for Transfer Case Selection</h2>
+                      <img class="media-object" src="/html/images/_pdf_2204.01620.png"/>
+                      <p class="media-body"> Industrial transfer learning increases adaptability of deep learning algorithms towards heterogenous and dynamic industrial use cases without high manual efforts. The appropriate selection of what to transfer can vastly improve a transfer&#39;s results. The BIRCH algorithm is selected for this purpose. Results underline the approaches&#39; applicability caused by its results&#39; reproducibility and practical indifference to sequence, size and dimensionality of (sub-)datasets to be clustered sequentially.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.01593" target="_blank">
+                      <h2>Optimize Deep Learning Models for Prediction of Gene Mutations Using Unsupervised Clustering</h2>
+                      <img class="media-object" src="/html/images/_pdf_2204.01593.png"/>
+                      <p class="media-body"> Deep learning has become the mainstream methodological choice for analyzing and interpreting whole-slide digital pathology images (WSIs) It is commonly assumed that tumor regions carry most predictive information. They proposed an unsupervised clustering-based multiple-instance learning, and apply the method to develop deep-learning models for prediction of gene mutations using WSIs from three cancer types.
+ The unsupervised-clustering-based approach for mutation prediction allows identification of the spatial regions related to mutation of a specific gene via the resolved probability scores. Other tissue types in the tumor micro-environment may provide better prediction ability for gene mutations than tumor tissues.</p>
+                  </a>
+              </span>
+            
+        </div>
+        <br/><hr/>
+        <span class="more boldfont">
+            <a href="/theme/Artificial_Intelligence?page=5">more...</a>
+        </span>
+</body>
+
+</html>

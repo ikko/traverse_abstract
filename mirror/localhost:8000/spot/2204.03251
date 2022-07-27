@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - Automatic WordNet Construction using Word Sense Induction through Sentence Embeddings - Computation and Language</title>
+<body>
+  <div  class="leftmargin">
+
+     <h1> <a href="/">Traverse Abstract</a></h1>
+     <p class="page-title"> Automatic WordNet Construction using Word Sense Induction through Sentence Embeddings </p>
+      <span class="card">
+              <p class="page-theme"><a href="/theme/Computation_and_Language">Computation and Language</a></p>
+              <img class="media-object" src="/html/sums/_sum_2204.03251.html.1.png"/>
+              <p class="media-body media-body-page article p1">Authors propose automatic wordnet construction using Word Sense Induc-dings-based language model. They produce a wordnet that supplants and improves the outdated Filipino WordNet. Manual annotation involved in the process of cre-forming and updating a wordNet is a primary issue that needs to be addressed in the current Filipino wordnetmodel due to its slow processs and high cost. However, emerging technologies that can be applied to make this process automatic can be made automatic without the need for human supervision.&lt;br/&gt; The most widely used wordnet in NLP is the Prince-glyton Wordnet (PWN) which be-turned the standard for subsequent wordnets. The technique is language-agnostic, but for this work, they use Filipino as a case study to produce a new wordnet, which we&#39;re calling FilWordNet. The approach only requires unlabeled corpora and sentence embeddings-based language models and do not require human su-glypervision in the generation process.</p>
+              <img class="media-object" src="/html/sums/_sum_2204.03251.html.2.png"/>
+              <p class="media-body media-body-page article  p2">Wordnets are usually constructed following ei-ther approaches (Vossen, 1998): (1) merge approach or (2) expansion approach. In the merge approach, the wordnet is manually con-structed from the ground up by lexicographers. The expansion approach tends to be more efﬁcient than the merger approach. Not all languages have an existing wordnet with semantic relationships like hypernyms. They present an automatic approach to construct a new wordnet from scratch, free of any dependencies from a reference wordnet in another language.&lt;br/&gt; The BERT model was mod-idated to use siamese and triplet network structures to produce semantically meaningful sentence embeddings. This resulted in getting state-of-the-art results in some Semantic Textual Similarity (STS) tasks. The proposed approach rests on the assumption that semantically similar sen-tences are closer together, and therefore, they are more suitable for clustering. They propose the 3-STEP clus-profering approach for WSI where the clustering process is repeated three times as detailed in Section 2.2.3.</p>
+              
+                  <p class="media-body media-body-page article pn">Researchers used a 3-STEP clustering approach to reduce redundant and redundant clusters of words. The method is based on the corpus and seed words of words used to create a sense inventory of senses for each word in seed words to get the sense inventory. They then use a clustering algorithm that does not require the number of clusters to be known in ad-genial advance. They use the method to cluster sentences that are similar in usage and clusters are clustered together. This method is called WSI-PGP, which is a free-form algorithm that can be used to cluster words into clusters.</p>
+              
+                  <p class="media-body media-body-page article pn">In TRIM, they only keep the N-nearest neighbors from the centroid of the cluster and dis-ishlycard the rest of the rest. They use cosine similarity to choose the roughly closest neighbors. After the clusters are ob-insuredtained, the sentence embeddings in each cluster are av-ishlyaged to get the new sense embedding as each clus-centricter can now be considered as a sense. Words that have example sentences of less than 20 words are skipped in COHFIE. Words with only uppercase letter or less are excluded to remove proper nouns with only letters or less letters.
+ From 2,684 seed words, they were able to induce 7,238 senses. The distribution of the number of senses per word shows that most words in the automatically cre-orative wordnet have 2 senses. This also shows that the approach can also easily induce single senses. To evaluate the validity of the senses, they evaluate it using a Word Sense Disambiguation (WSD) setup. For this step, they used the GoogleTranslate API as a translation tool3 and NLTK4 to ac-ulentcess the Princeton WordNet.</p>
+              
+                  <p class="media-body media-body-page article pn">The main goal of this evaluation is to know if the in-uveced word senses are valid. For this evaluation, they randomly sampled a total of 60 words from the old Filipino WordNet to be translated to En-uveglish and used to query Princeton WordNet senses. For the disambiguation process, they adopt the WSD-setup in Hu et al. (2019), where the input sentence is compared against the sense embeddings using cosine.similarity. They classify the senses.to be valid if it’s used in WSD at least once.
+ There are synsets that do not make a sense, most especially those with 10 or more elements. This can cause overlapping sentences in the sentence inventory, where both senses may contain similar sentences. There are in-researduced synset that don&#39;t contain synonyms. Lastly, new syntheticsynsets were also induced which were not present in the old Filpino Wordnet. These limitations must be addressed in fu-uveture work to ensure the robustness of the technique.</p>
+              
+          <a class="media" href="https://arxiv.org/abs/2204.03251" target="_blank">
+            <h2 class="paper">Paper</h2>
+          </a>
+      </span>
+  </div>
+</body>
+
+</html>

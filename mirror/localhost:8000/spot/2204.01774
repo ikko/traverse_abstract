@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - Reducing SAT to Max2XOR - </title>
+<body>
+  <div  class="leftmargin">
+
+     <h1> <a href="/">Traverse Abstract</a></h1>
+     <p class="page-title"> Reducing SAT to Max2XOR </p>
+      <span class="card">
+              <p class="page-theme"><a href="/theme/"></a></p>
+              <img class="media-object" src="/html/sums/abstract.png"/>
+              <p class="media-body media-body-page article p1"></p>
+              <img class="media-object" src="/html/sums/abstract.png"/>
+              <p class="media-body media-body-page article  p2"></p>
+              
+                  <p class="media-body media-body-page article pn">ArXiv:4 Reducing SAT to Max2XOR is called optimal if it minimizes α. In the case that P is a decision problem, P is unsatisﬁable if, Cost(P ‘) ≥ (β − α) Weight(P) + 1) is a (1, 3/2)-gadget from Max2SAT to MaxXOR.
+ They can simplify any PC problem to get an equivalent problem where, for every set of variables, there is only one constraint. They can go further and reduce Max2XOR to MaxCUT since Max2CUT is a subset of the Max2SAT problem. The order of the variables is irrelevant and x ⊕ x is irrelevant.</p>
+              
+                  <p class="media-body media-body-page article pn">The transformations described in Lemma 6 do not deﬁne a.gadget, since the auxiliary variable 0 is not local to a constraint, but global to the whole.problem. Alternatively, they can reduce the number of auxiliary variables and constraints if they add two special auxiliary variables called ˆ0 and �ˆ1.
+ They can reduce MaxSAT to Max3SAT using Lemma 4. They can also reduce Max2XOR to Max2SAT and Max2 XOR. They have a number of ways to reduce MaxXOR using the same Lemma as Max3XOR. In this case, they can use Lemma4 to reduce the number of constraints of the form (w) x=i, i.ewi)
+ The concatenation of Trevisan’s gadget (2) and the gadget in Lemma 4 results into the optimal gadget from MaxEkSAT to Max2XOR. The reduction is based on a function T 0 that takes as parameters a SAT clause and a variable. The use of this variable is for technical reasons, to make simpler the recursive reductions.</p>
+              
+                  <p class="media-body media-body-page article pn">Reducing SAT to Max2XOR0 is based on gadget from Max3SAT to max2SAT. All constraints have weight 1/2. Red dashed edges represent 2PC1 constraints, 2PC0 constraints and 2PC2 constraints. It will be replaced by the constant constant that will replace SAT.
+ Consider the Max2XOR problem T 0(x1,, xk, bk−1) and I(bk) = 1. For i = 1,, k − 1, maximizes the number of satisﬁed 2XOR constraints, that is 2 (k − 1) otherwise.</p>
+              
+                  <p class="media-body media-body-page article pn">The proof is by induction on k. CAnsótegui and JLevyarXiv:7:7.7: 7:7; 7:8:8; 9:9:10:Inductionprovesthat they can always satisfy two of the three constraints.
+ For k = 2 and I(b1) = 0, the number of satisﬁed constraints is zero. Therefore, they can satisfy a maximum of 2(k − 1) constraints from 0(x1) to 0 (xk) The proof is also by induction on k.
+ Theorem 9: The translation of every clause x1 into T 0(x1 ˆ1) deﬁnesoucea (k − 1, 3/2(k1) of constraints, i.e2 (k2) of them, maximizes the satisfaction of the rest of the constraints.
+ The number of 2XOR constraints is 3(k − 1), all of them with weight 1/2. They only describe the translation of clause x1 when all variables are positive. They can easily generalize the transformation when any of the variables x are negated.</p>
+              
+                  <p class="media-body media-body-page article pn">The previous reduction of MaxSAT into Max2XOR can be seen as a kind of sequential sequential checker. They can use a sort of parallel checker to describe the reduction formally. The reduction can be reduced to the following Max2 XOR problem, where all XOR constraints have weight 1/2.
+ Given a clause x1 and a variable b, their translation into Max2XOR is deﬁned recursively and non-deterministically as:reparativeconstraints. When k = 3 they have two possible translations (applying the second or third case), and when k ≥ 4 they can apply the second, third and forth cases, with distinct values of r.
+ Lemma 13: T is a generalization of T 0. They have: T 0.0.0. They also have: The set of 2XOR constraints of T(x1 xk, b) without weights. Lemma 12: They have T 0, T 0 and T 0 are generalizations of T 1.</p>
+              
+                  <p class="media-body media-body-page article pn">CAnsótegui and JLevyarXiv:9 : 9 9 :There are 3(k − 1) constraints. An optimal assignment can be extended to an optimal assignment satisfying 2(k-2) constraints. The third statement is proved by induction.
+ Both assignments do not share variables, therefore, they can be combined into a single assignment. This assignment can be extended with I(b) = b′∨b′′. This ensures that it will satisfy two of the constraints from {b′ ⊉r′′ = 1, b′ ≉b = 0, b r = 0. The forth statement is proved by induction.
+ The base case, for binary clauses is simply trivial. For the induction case, consider only the application of the forth case of the deﬁnition of T (the other cases are quite similar)They have to consider 3 possibilities: If they extend I(b′) = 1 and I(B′′), by induction, they can extend I to satisfy 2(r−2) constraints of T(xr+1) and 2(k − r)
+ Theorems 9 and 14 establish the same values for k − 1 and 3/2(k − 1) in the (α, β)-gadget, and both introduce the same number of fresh variables. The parallel translation is a generalization of the sequential translation, but it does not have a clear (theoretical) advantage.</p>
+              
+                  <p class="media-body media-body-page article pn">They can determine how distant are two variables in the original SAT problem, or even better, they can obtain a dendrogram of these variables. Then they can construct a better translation, i.ea tree where distant variables are kept in distinct branches. This will have the eﬀect of increasing the modularity of the problem, hence of decreasing its diﬃculty.
+ An inference rule P ⊢ C is sound if I(P) = I(C), for any assignment I of the variables. The weight of unsatisﬁable constraints is shifted in an inferential rule. An empty clause with weight (β − α)Weight(P), or an empty clause negated to the conclusions, can be added to the premises.
+ The Max2SAT to Max2XOR gadget described in section 4.1 can be written as: &#34;A Polynomial and Incomplete Proof System&#34; Section 4.5.1: They use SAT to XOR constraints of size 2, they will use a mixture of XOR and SAT constraints.</p>
+              
+                  <p class="media-body media-body-page article pn">Max2XOR proof system is described by rules of the rules of a set of SAT constraints. In all rules, the SAT constraints prevent assignments that falsify the two premises. In the best case, the application of rules to a XOR problem ﬁnishes the problem with XOR constraints.
+ The rules in the Max2XOR proof system are sound. The SAT clauses in some of the rules ensure that, when the assignment falsiﬁes the two premises, the number of falsi ﬁed clauses in the conclusion is the same. They alternatively prove the soundness by the application of the MaxSAT resolution rule.
+ If they fold the ternary clauses they get the conclusions a ⊕ b = 0, (2) x ∨ ¬a ∨. ¬x ∨ a = 0. Theorem 16: The length of any of these derivations is linearly bounded. The rest of the cases in ﬁgure 3 can be proven in a similar way.</p>
+              
+                  <p class="media-body media-body-page article pn">In the second version of the Max2XOR proof system, in contrast to the ﬁrst version, they do not ignore the SAT constraints produced by the rules. The proof system is polynomial, but incomplete, but they can come up with a more compact representation with fewer fresh variables.
+ For example, for the resolution rule on premises: XORx ⊕ a = 0, x ⊁ b = 0 they could propose the following resolution rule:. For the rule:. The resolution rule is modiﬁed in a similar way. The second and third rules in Figure 3 can also be. also be modi-moded in the same way.
+ There are 2n distinct assignments to the variables and 3n distinct possible possible constraints. XOR constraints are the only way of writing an inference rule for Max2XOR, in this case. The same applies to the sum of the weights of unsatisﬁed clauses, as in the MaxSAT resolution rule.</p>
+              
+          <a class="media" href="https://arxiv.org/abs/2204.01774" target="_blank">
+            <h2 class="paper">Paper</h2>
+          </a>
+      </span>
+  </div>
+</body>
+
+</html>

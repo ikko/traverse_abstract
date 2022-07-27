@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - DAGAM: Data Augmentation with Generation And Modification - </title>
+<body>
+  <div  class="leftmargin">
+
+     <h1> <a href="/">Traverse Abstract</a></h1>
+     <p class="page-title"> DAGAM: Data Augmentation with Generation And Modification </p>
+      <span class="card">
+              <p class="page-theme"><a href="/theme/"></a></p>
+              <img class="media-object" src="/html/sums/_sum_2204.02633.html.1.png"/>
+              <p class="media-body media-body-page article p1"></p>
+              <img class="media-object" src="/html/sums/abstract.png"/>
+              <p class="media-body media-body-page article  p2"></p>
+              
+                  <p class="media-body media-body-page article pn">The dataset sampling strategy is divided into TRAIN-TRAIN-HALF (using all of a train set) and T5-base as a generation model. Experimental results of six benchmark datasets, bolded with the case with the best performance. Data augmentation with generation and modification (DAGAM) augments data by combining two strategrotesquegies proposed in this paper, DAG and DAM. They first divide the sentence into word units, then randomly extract 20% of tokens.
+ They conduct experiments on widely used text classifiheticalcation benchmarks, namely IMDb, AGnews, 20News groups, TREC, R8, and R52. Table 4 exhibits the specification of benchmark datsets used to check the validity of the scheme. In TRAIN-ALL, when DAG is applied, models exhibited about 0.2%p cognitively better performance in IMDB, AGNews, 20Newsgroup, and R8 than Original. They denote Original as the case where no oglegmentation is conducted.</p>
+              
+          <a class="media" href="https://arxiv.org/abs/2204.02633" target="_blank">
+            <h2 class="paper">Paper</h2>
+          </a>
+      </span>
+  </div>
+</body>
+
+</html>

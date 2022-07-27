@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - Computation_and_Language</title>
+
+<body>
+
+        <h1> <a href="/">Traverse Abstract</a></h1>
+        <div class="theme"> <a href="/theme/Computation_and_Language">Computation and Language</a></div>
+          <br/><hr/>
+        <div class="grid">
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.03489" target="_blank">
+                      <h2>Position-based Prompting for Health Outcome Generation</h2>
+                      <img class="media-object" src="/html/images/_pdf_2204.03489.png"/>
+                      <p class="media-body"> Pre-trained Language Models (PLMs) using prompts indirectly implied that language models can be treated as knowledge bases. They observe that satisfying a particular linguistic pattern in prompts is an unsustainable constraint that unnecessarily lengthens the probing task. They therefore explore an idea of using a position-attention mechanism to capture positional information of each word in a prompt relative to the mask to be filled, hence avoiding the need to re-construct prompts when the prompts linguistic pattern changes. Using various biomedical PLMs, the approach consistently outperforms a baseline in which the default mask language model is used to predict masked tokens.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.03409" target="_blank">
+                      <h2>MAESTRO: Matched Speech Text Representations through Modality Matching</h2>
+                      <img class="media-object" src="/html/images/_pdf_2204.03409.png"/>
+                      <p class="media-body"> They present Maestro, a self-supervised training method to unify representations learnt from speech and text modalities. They establish a new state-of-the-art (SOTA) on VoxPopuli multilingual ASR with a 11% relative reduction in Word Error Rate (WER), multidomain SpeechStew ASR (3.7% relative) and 21 languages to English multilingual ST on CoVoST 2 with an improvement of 2.8 BLEU averaged over 21 languages.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.03251" target="_blank">
+                      <h2>Automatic WordNet Construction using Word Sense Induction through Sentence Embeddings</h2>
+                      <img class="media-object" src="/html/images/_pdf_2204.03251.png"/>
+                      <p class="media-body"> Language resources such as wordnets remain indispensable tools for different natural language tasks and applications. For low-resource languages such as Filipino, existing wordnets are old and outdated, and producing new ones may be slow and costly in terms of time and resources. In this paper, they propose an automatic method for constructing a wordnet from scratch using only an unlabeled corpus and a sentence embeddings-based language model. Using this, they produce FilWordNet, a new wordnet that supplants and improves the outdated Filipino WordNet.</p>
+                  </a>
+              </span>
+            
+        </div>
+        <br/><hr/>
+        <span class="more boldfont">
+            <a href="/theme/Computation_and_Language?page=2">more...</a>
+        </span>
+</body>
+
+</html>

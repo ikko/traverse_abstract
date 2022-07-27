@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traverse Abstract</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+  <a id="toggle" class="toggle-dark-mode button">☾</a>
+  <script src="/html/script.js"></script>
+
+<title>Traverse Abstract - Artificial_Intelligence</title>
+
+<body>
+
+        <h1> <a href="/">Traverse Abstract</a></h1>
+        <div class="theme"> <a href="/theme/Artificial_Intelligence">Artificial Intelligence</a></div>
+          <br/><hr/>
+        <div class="grid">
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.02329" target="_blank">
+                      <h2>Can language models learn from explanations in context?</h2>
+                      <img class="media-object" src="/html/images/_pdf_2204.02329.png"/>
+                      <p class="media-body"> Large language models can perform new tasks by adapting to a few in-context examples. For humans, rapid learning from examples can benefit from explanations that connect examples to task principles. They investigate whether explanations of few-shot examples can allow language models to adapt more effectively. They annotate a set of 40 challenging tasks from BIG-Bench with explanations of answers to a small subset of questions.
+ They analyze these results using statistical multilevel modeling techniques that account for nested dependencies among conditions, tasks, prompts, and models. Building a prompt by selecting examples and explanations together substantially improves performance over selecting examples alone. They then show that explanations tuned for performance on a small validation set offer substantially larger benefits.
+ Even untuned explanations outperform carefully matched controls, suggesting that the benefits are due to the link between an example and its explanation, rather than lower-level features of the language used. However, only large models can benefit from explanations, according to the study. In-context learning abilities of large language models can support large language learning abilities.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.02294" target="_blank">
+                      <h2>ZETAR: Modeling and Computational Design of Strategic and Adaptive Compliance Policies</h2>
+                      <img class="media-object" src="/html/images/_pdf_2204.02294.png"/>
+                      <p class="media-body"> Security compliance management plays an important role in mitigating insider threats. ZETAR, a zero-trust audit and recommendation framework, provides a quantitative approach to model incentives of insiders and design customized and strategic recommendation policies to improve their compliance. They create a theoretical underpinning for understanding trust and compliance, and it leads to security insights.
+ This work proposes finite-step algorithms to efficiently learn the CT policy set when employees&#39; incentives are unknown. They present a case study to corroborate the design and illustrate a formal way to achieve compliance for insiders with different risk attitudes. The results show that the optimal recommendation policy leads to a significant improvement in compliance for risk-averse insiders.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.02283" target="_blank">
+                      <h2>Lost in Latent Space: Disentangled Models and the Challenge of Combinatorial Generalisation</h2>
+                      <img class="media-object" src="/html/images/_pdf_2204.02283.png"/>
+                      <p class="media-body"> Recent research has shown that generative models with highly disentangled representations fail to generalise to unseen combination of generative factor values. These findings contradict earlier research which showed improved performance in out-of-training distribution settings when compared to entangled representations. To generalise properly, models not only need to capture factors of variation, but also understand how to invert the generative process that was used to generate the data. They argue that models need to. understand how they are able to. invert.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.02189" target="_blank">
+                      <h2>Automating Staged Rollout with Reinforcement Learning</h2>
+                      <img class="media-object" src="/html/images/_pdf_2204.02189.png"/>
+                      <p class="media-body"> Staged rollout is a strategy of incrementally releasing software updates to portions of the user population in order to accelerate defect discovery without incurring catastrophic outcomes such as system wide outages. This paper demonstrates the potential to automate staged rollout with multi-objective reinforcement learning to dynamically balance stakeholder needs such as time to deliver new features and downtime incurred by failures due to latent defects. The potential to automated staged rollout is to be considered in the context of multiple product or process metrics, such as the product and process metrics.</p>
+                  </a>
+              </span>
+            
+              <span class="card">
+                  <a class="media" href="/spot/2204.02011" target="_blank">
+                      <h2>ELECRec: Training Sequential Recommenders as Discriminators</h2>
+                      <img class="media-object" src="/html/abstract.png"/>
+                      <p class="media-body"> Sequential recommendation is often considered as a generative task, i.e., training a sequential encoder to generate the next item of a user&#39;s interests based on her historical interacted items. They propose to train the sequential recommenders as discriminators rather than generators. A generator, as an auxiliary model, is trained jointly with the discriminator to sample plausible alternative next items. The trained discriminator is considered as the final SR model and denoted as \modelname. Experiments conducted on fthe datasets demonstrate effectiveness and efficiency of the proposed approach.</p>
+                  </a>
+              </span>
+            
+        </div>
+        <br/><hr/>
+        <span class="more boldfont">
+            <a href="/theme/Artificial_Intelligence?page=4">more...</a>
+        </span>
+</body>
+
+</html>
